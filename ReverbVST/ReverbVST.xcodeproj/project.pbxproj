@@ -8,36 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		E014A63F24808AF900FFA9EF /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E014A63E24808AF900FFA9EF /* Carbon.framework */; };
-		E014A6B72484524000FFA9EF /* Reverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A6B22484524000FFA9EF /* Reverb.cpp */; };
-		E014A6B82484524000FFA9EF /* ReverbSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A6B32484524000FFA9EF /* ReverbSolution.cpp */; };
-		E014A6B92484524000FFA9EF /* Distortion_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A6B42484524000FFA9EF /* Distortion_1.cpp */; };
-		E014A6BA2484524000FFA9EF /* Distortion_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A6B52484524000FFA9EF /* Distortion_2.cpp */; };
-		E014A6E32484527D00FFA9EF /* audioeffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A6DC2484527D00FFA9EF /* audioeffect.cpp */; };
-		E014A6E42484527D00FFA9EF /* audioeffectx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A6DD2484527D00FFA9EF /* audioeffectx.cpp */; };
-		E014A6E62484527D00FFA9EF /* vstplugmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A6E02484527D00FFA9EF /* vstplugmain.cpp */; };
+		E014A6F02486E62B00FFA9EF /* Reverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A6EB2486E62B00FFA9EF /* Reverb.cpp */; };
+		E014A7062486E63400FFA9EF /* audioeffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A6FF2486E63300FFA9EF /* audioeffect.cpp */; };
+		E014A7072486E63400FFA9EF /* audioeffectx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A7002486E63300FFA9EF /* audioeffectx.cpp */; };
+		E014A7092486E63400FFA9EF /* vstplugmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A7032486E63300FFA9EF /* vstplugmain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E01461932480871000FFA9EF /* ReverbVST.vst */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverbVST.vst; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01461962480871000FFA9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E014A63E24808AF900FFA9EF /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
-		E014A6AF2484524000FFA9EF /* Reverb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reverb.h; sourceTree = "<group>"; };
-		E014A6B02484524000FFA9EF /* Distortion_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Distortion_2.h; sourceTree = "<group>"; };
-		E014A6B12484524000FFA9EF /* Distortion_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Distortion_1.h; sourceTree = "<group>"; };
-		E014A6B22484524000FFA9EF /* Reverb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Reverb.cpp; sourceTree = "<group>"; };
-		E014A6B32484524000FFA9EF /* ReverbSolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverbSolution.cpp; sourceTree = "<group>"; };
-		E014A6B42484524000FFA9EF /* Distortion_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Distortion_1.cpp; sourceTree = "<group>"; };
-		E014A6B52484524000FFA9EF /* Distortion_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Distortion_2.cpp; sourceTree = "<group>"; };
-		E014A6B62484524000FFA9EF /* ReverbSolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverbSolution.h; sourceTree = "<group>"; };
-		E014A6D42484527D00FFA9EF /* vstfxstore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vstfxstore.h; sourceTree = "<group>"; };
-		E014A6D52484527D00FFA9EF /* aeffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aeffect.h; sourceTree = "<group>"; };
-		E014A6D72484527D00FFA9EF /* aeffectx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aeffectx.h; sourceTree = "<group>"; };
-		E014A6DB2484527D00FFA9EF /* audioeffectx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioeffectx.h; sourceTree = "<group>"; };
-		E014A6DC2484527D00FFA9EF /* audioeffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audioeffect.cpp; sourceTree = "<group>"; };
-		E014A6DD2484527D00FFA9EF /* audioeffectx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audioeffectx.cpp; sourceTree = "<group>"; };
-		E014A6DE2484527D00FFA9EF /* aeffeditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aeffeditor.h; sourceTree = "<group>"; };
-		E014A6E02484527D00FFA9EF /* vstplugmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vstplugmain.cpp; sourceTree = "<group>"; };
-		E014A6E12484527D00FFA9EF /* audioeffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioeffect.h; sourceTree = "<group>"; };
+		E014A6E82486E62B00FFA9EF /* Reverb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reverb.h; sourceTree = "<group>"; };
+		E014A6E92486E62B00FFA9EF /* Distortion_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Distortion_2.h; sourceTree = "<group>"; };
+		E014A6EA2486E62B00FFA9EF /* Distortion_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Distortion_1.h; sourceTree = "<group>"; };
+		E014A6EB2486E62B00FFA9EF /* Reverb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Reverb.cpp; sourceTree = "<group>"; };
+		E014A6EC2486E62B00FFA9EF /* ReverbSolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverbSolution.cpp; sourceTree = "<group>"; };
+		E014A6ED2486E62B00FFA9EF /* Distortion_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Distortion_1.cpp; sourceTree = "<group>"; };
+		E014A6EE2486E62B00FFA9EF /* Distortion_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Distortion_2.cpp; sourceTree = "<group>"; };
+		E014A6EF2486E62B00FFA9EF /* ReverbSolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverbSolution.h; sourceTree = "<group>"; };
+		E014A6F72486E63300FFA9EF /* vstfxstore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vstfxstore.h; sourceTree = "<group>"; };
+		E014A6F82486E63300FFA9EF /* aeffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aeffect.h; sourceTree = "<group>"; };
+		E014A6FA2486E63300FFA9EF /* aeffectx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aeffectx.h; sourceTree = "<group>"; };
+		E014A6FE2486E63300FFA9EF /* audioeffectx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioeffectx.h; sourceTree = "<group>"; };
+		E014A6FF2486E63300FFA9EF /* audioeffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audioeffect.cpp; sourceTree = "<group>"; };
+		E014A7002486E63300FFA9EF /* audioeffectx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audioeffectx.cpp; sourceTree = "<group>"; };
+		E014A7012486E63300FFA9EF /* aeffeditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aeffeditor.h; sourceTree = "<group>"; };
+		E014A7032486E63300FFA9EF /* vstplugmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vstplugmain.cpp; sourceTree = "<group>"; };
+		E014A7042486E63300FFA9EF /* audioeffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioeffect.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +52,8 @@
 		E014618A2480871000FFA9EF = {
 			isa = PBXGroup;
 			children = (
-				E014A6D12484527D00FFA9EF /* vst_sdk */,
-				E014A6AE2484524000FFA9EF /* source */,
+				E014A6F42486E63300FFA9EF /* vst_sdk */,
+				E014A6E72486E62B00FFA9EF /* source */,
 				E01461952480871000FFA9EF /* ReverbVST */,
 				E01461942480871000FFA9EF /* Products */,
 				E014A63D24808AF900FFA9EF /* Frameworks */,
@@ -87,73 +84,73 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E014A6AE2484524000FFA9EF /* source */ = {
+		E014A6E72486E62B00FFA9EF /* source */ = {
 			isa = PBXGroup;
 			children = (
-				E014A6AF2484524000FFA9EF /* Reverb.h */,
-				E014A6B02484524000FFA9EF /* Distortion_2.h */,
-				E014A6B12484524000FFA9EF /* Distortion_1.h */,
-				E014A6B22484524000FFA9EF /* Reverb.cpp */,
-				E014A6B32484524000FFA9EF /* ReverbSolution.cpp */,
-				E014A6B42484524000FFA9EF /* Distortion_1.cpp */,
-				E014A6B52484524000FFA9EF /* Distortion_2.cpp */,
-				E014A6B62484524000FFA9EF /* ReverbSolution.h */,
+				E014A6E82486E62B00FFA9EF /* Reverb.h */,
+				E014A6E92486E62B00FFA9EF /* Distortion_2.h */,
+				E014A6EA2486E62B00FFA9EF /* Distortion_1.h */,
+				E014A6EB2486E62B00FFA9EF /* Reverb.cpp */,
+				E014A6EC2486E62B00FFA9EF /* ReverbSolution.cpp */,
+				E014A6ED2486E62B00FFA9EF /* Distortion_1.cpp */,
+				E014A6EE2486E62B00FFA9EF /* Distortion_2.cpp */,
+				E014A6EF2486E62B00FFA9EF /* ReverbSolution.h */,
 			);
 			path = source;
 			sourceTree = "<group>";
 		};
-		E014A6D12484527D00FFA9EF /* vst_sdk */ = {
+		E014A6F42486E63300FFA9EF /* vst_sdk */ = {
 			isa = PBXGroup;
 			children = (
-				E014A6D22484527D00FFA9EF /* pluginterfaces */,
-				E014A6D82484527D00FFA9EF /* public.sdk */,
+				E014A6F52486E63300FFA9EF /* pluginterfaces */,
+				E014A6FB2486E63300FFA9EF /* public.sdk */,
 			);
 			path = vst_sdk;
 			sourceTree = "<group>";
 		};
-		E014A6D22484527D00FFA9EF /* pluginterfaces */ = {
+		E014A6F52486E63300FFA9EF /* pluginterfaces */ = {
 			isa = PBXGroup;
 			children = (
-				E014A6D32484527D00FFA9EF /* vst2.x */,
+				E014A6F62486E63300FFA9EF /* vst2.x */,
 			);
 			path = pluginterfaces;
 			sourceTree = "<group>";
 		};
-		E014A6D32484527D00FFA9EF /* vst2.x */ = {
+		E014A6F62486E63300FFA9EF /* vst2.x */ = {
 			isa = PBXGroup;
 			children = (
-				E014A6D42484527D00FFA9EF /* vstfxstore.h */,
-				E014A6D52484527D00FFA9EF /* aeffect.h */,
-				E014A6D72484527D00FFA9EF /* aeffectx.h */,
+				E014A6F72486E63300FFA9EF /* vstfxstore.h */,
+				E014A6F82486E63300FFA9EF /* aeffect.h */,
+				E014A6FA2486E63300FFA9EF /* aeffectx.h */,
 			);
 			path = vst2.x;
 			sourceTree = "<group>";
 		};
-		E014A6D82484527D00FFA9EF /* public.sdk */ = {
+		E014A6FB2486E63300FFA9EF /* public.sdk */ = {
 			isa = PBXGroup;
 			children = (
-				E014A6D92484527D00FFA9EF /* source */,
+				E014A6FC2486E63300FFA9EF /* source */,
 			);
 			path = public.sdk;
 			sourceTree = "<group>";
 		};
-		E014A6D92484527D00FFA9EF /* source */ = {
+		E014A6FC2486E63300FFA9EF /* source */ = {
 			isa = PBXGroup;
 			children = (
-				E014A6DA2484527D00FFA9EF /* vst2.x */,
+				E014A6FD2486E63300FFA9EF /* vst2.x */,
 			);
 			path = source;
 			sourceTree = "<group>";
 		};
-		E014A6DA2484527D00FFA9EF /* vst2.x */ = {
+		E014A6FD2486E63300FFA9EF /* vst2.x */ = {
 			isa = PBXGroup;
 			children = (
-				E014A6DB2484527D00FFA9EF /* audioeffectx.h */,
-				E014A6DC2484527D00FFA9EF /* audioeffect.cpp */,
-				E014A6DD2484527D00FFA9EF /* audioeffectx.cpp */,
-				E014A6DE2484527D00FFA9EF /* aeffeditor.h */,
-				E014A6E02484527D00FFA9EF /* vstplugmain.cpp */,
-				E014A6E12484527D00FFA9EF /* audioeffect.h */,
+				E014A6FE2486E63300FFA9EF /* audioeffectx.h */,
+				E014A6FF2486E63300FFA9EF /* audioeffect.cpp */,
+				E014A7002486E63300FFA9EF /* audioeffectx.cpp */,
+				E014A7012486E63300FFA9EF /* aeffeditor.h */,
+				E014A7032486E63300FFA9EF /* vstplugmain.cpp */,
+				E014A7042486E63300FFA9EF /* audioeffect.h */,
 			);
 			path = vst2.x;
 			sourceTree = "<group>";
@@ -225,13 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E014A6E42484527D00FFA9EF /* audioeffectx.cpp in Sources */,
-				E014A6B72484524000FFA9EF /* Reverb.cpp in Sources */,
-				E014A6B92484524000FFA9EF /* Distortion_1.cpp in Sources */,
-				E014A6BA2484524000FFA9EF /* Distortion_2.cpp in Sources */,
-				E014A6E62484527D00FFA9EF /* vstplugmain.cpp in Sources */,
-				E014A6E32484527D00FFA9EF /* audioeffect.cpp in Sources */,
-				E014A6B82484524000FFA9EF /* ReverbSolution.cpp in Sources */,
+				E014A7072486E63400FFA9EF /* audioeffectx.cpp in Sources */,
+				E014A6F02486E62B00FFA9EF /* Reverb.cpp in Sources */,
+				E014A7092486E63400FFA9EF /* vstplugmain.cpp in Sources */,
+				E014A7062486E63400FFA9EF /* audioeffect.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
