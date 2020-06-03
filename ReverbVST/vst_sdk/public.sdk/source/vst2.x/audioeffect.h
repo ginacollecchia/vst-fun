@@ -7,13 +7,13 @@
 // Created by   : Steinberg Media Technologies
 // Description  : Class AudioEffect (VST 1.0)
 //
-// © 2006, Steinberg Media Technologies, All Rights Reserved
+// ï¿½ 2006, Steinberg Media Technologies, All Rights Reserved
 //-------------------------------------------------------------------------------------------------------
 
 #ifndef __audioeffect__
 #define __audioeffect__
 
-#include "pluginterfaces/vst2.x/aeffect.h"	// "c" interface
+#include "aeffect.h"	// "c" interface
 
 class AEffEditor;
 

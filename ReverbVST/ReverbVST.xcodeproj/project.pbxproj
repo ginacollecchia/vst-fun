@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		E014A63F24808AF900FFA9EF /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E014A63E24808AF900FFA9EF /* Carbon.framework */; };
-		E014A6F02486E62B00FFA9EF /* Reverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A6EB2486E62B00FFA9EF /* Reverb.cpp */; };
 		E014A7062486E63400FFA9EF /* audioeffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A6FF2486E63300FFA9EF /* audioeffect.cpp */; };
 		E014A7072486E63400FFA9EF /* audioeffectx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A7002486E63300FFA9EF /* audioeffectx.cpp */; };
 		E014A7092486E63400FFA9EF /* vstplugmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A7032486E63300FFA9EF /* vstplugmain.cpp */; };
+		E014A71024874BE300FFA9EF /* Reverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E014A6EB2486E62B00FFA9EF /* Reverb.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +35,8 @@
 		E014A7012486E63300FFA9EF /* aeffeditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aeffeditor.h; sourceTree = "<group>"; };
 		E014A7032486E63300FFA9EF /* vstplugmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vstplugmain.cpp; sourceTree = "<group>"; };
 		E014A7042486E63300FFA9EF /* audioeffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioeffect.h; sourceTree = "<group>"; };
+		E014A70D2487433800FFA9EF /* again.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = again.cpp; path = "../../../vst-2.4-xcode-examples/again/source/again.cpp"; sourceTree = "<group>"; };
+		E014A70E2487433800FFA9EF /* again.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = again.h; path = "../../../vst-2.4-xcode-examples/again/source/again.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,8 @@
 		E014A6E72486E62B00FFA9EF /* source */ = {
 			isa = PBXGroup;
 			children = (
+				E014A70D2487433800FFA9EF /* again.cpp */,
+				E014A70E2487433800FFA9EF /* again.h */,
 				E014A6E82486E62B00FFA9EF /* Reverb.h */,
 				E014A6E92486E62B00FFA9EF /* Distortion_2.h */,
 				E014A6EA2486E62B00FFA9EF /* Distortion_1.h */,
@@ -222,8 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E014A71024874BE300FFA9EF /* Reverb.cpp in Sources */,
 				E014A7072486E63400FFA9EF /* audioeffectx.cpp in Sources */,
-				E014A6F02486E62B00FFA9EF /* Reverb.cpp in Sources */,
 				E014A7092486E63400FFA9EF /* vstplugmain.cpp in Sources */,
 				E014A7062486E63400FFA9EF /* audioeffect.cpp in Sources */,
 			);
@@ -352,15 +356,15 @@
 				DEPLOYMENT_POSTPROCESSING = YES;
 				DEVELOPMENT_TEAM = P9GPJYD9A3;
 				DSTROOT = /;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/probraino/Coding/VST_SDK/VST2_SDK/\"/**",
-					"\"/Users/probraino/Coding/MUS424/hw4/pfft_hw4/\"",
-				);
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"vst_sdk\"/**";
 				INFOPLIST_FILE = ReverbVST/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Audio/Plugins/VST";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Audio/Plug-Ins/VST";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "Gina-Collecchia.ReverbVST";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = vst;
 			};
 			name = Debug;
@@ -374,15 +378,15 @@
 				DEPLOYMENT_POSTPROCESSING = YES;
 				DEVELOPMENT_TEAM = P9GPJYD9A3;
 				DSTROOT = /;
-				HEADER_SEARCH_PATHS = (
-					"\"/Users/probraino/Coding/VST_SDK/VST2_SDK/\"/**",
-					"\"/Users/probraino/Coding/MUS424/hw4/pfft_hw4/\"",
-				);
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"vst_sdk\"/**";
 				INFOPLIST_FILE = ReverbVST/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Audio/Plugins/VST";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Audio/Plug-Ins/VST";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "Gina-Collecchia.ReverbVST";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = vst;
 			};
 			name = Release;

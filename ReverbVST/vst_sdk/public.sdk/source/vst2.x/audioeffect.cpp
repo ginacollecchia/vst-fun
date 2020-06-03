@@ -7,7 +7,7 @@
 // Created by   : Steinberg Media Technologies
 // Description  : Class AudioEffect (VST 1.0)
 //
-// © 2006, Steinberg Media Technologies, All Rights Reserved
+// ï¿½ 2006, Steinberg Media Technologies, All Rights Reserved
 //-------------------------------------------------------------------------------------------------------
 
 #include "audioeffect.h"
@@ -509,7 +509,8 @@ void AudioEffect::int2string (VstInt32 value, char* text, VstInt32 maxLen)
 		value -= digit * div;
 		if (state || digit > 0)
 		{
-			char temp[2] = {'0' + (char)digit, '\0'};
+            // char temp[2] = {'0' + (char)digit, '\0'};
+            char temp[2] = {(char)digit, '\0'};
 			vst_strncat (text, temp, maxLen);
 			state = true;
 		}

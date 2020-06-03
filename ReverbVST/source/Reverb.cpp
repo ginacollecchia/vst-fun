@@ -93,11 +93,10 @@ void Reverb::setParameter (VstInt32 index, float value)
 {
 	switch (index)
 	{
-        int i;
         case kParamT60low:
             T60LowKnob = value;
             T60LowValue = SmartKnob::knob2value(T60LowKnob, T60LowLimits, T60LowTaper);
-            for (i=0; i<kNumDelays ; i++){
+            for (int i = 0; i < kNumDelays; i++){
                 designShelf(pcoefs,dlens[i], TransitionValue, T60LowValue, T60HighValue);
                 fbfilt[i].SetCoefs(coefs);
             }
@@ -105,7 +104,7 @@ void Reverb::setParameter (VstInt32 index, float value)
         case kParamT60high:
             T60HighKnob = value;
             T60HighValue = SmartKnob::knob2value(T60HighKnob, T60HighLimits, T60HighTaper);
-            for (i=0; i<kNumDelays ; i++){
+            for (int i=0; i<kNumDelays; i++){
                 designShelf(pcoefs,dlens[i], TransitionValue, T60LowValue, T60HighValue);
                 fbfilt[i].SetCoefs(coefs);
             }
@@ -113,7 +112,7 @@ void Reverb::setParameter (VstInt32 index, float value)
         case kParamTransition:
             TransitionKnob = value;
             TransitionValue = SmartKnob::knob2value(TransitionKnob, TransitionLimits, TransitionTaper);
-            for (i=0; i<kNumDelays ; i++){
+            for (int i=0; i < kNumDelays; i++){
                 designShelf(pcoefs,dlens[i], TransitionValue, T60LowValue, T60HighValue);
                 fbfilt[i].SetCoefs(coefs);
             }
