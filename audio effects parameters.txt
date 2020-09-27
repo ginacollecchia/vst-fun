@@ -1,0 +1,49 @@
+PARAMETERS
+
+Distortion:
+- drive
+- level
+- gain in
+- fc in
+- Q in
+- gain out
+- fc out
+- Q out
+
+Reverb:
+- t60 low
+- t60 high
+- transition
+- wet/dry
+- parametric Q
+- parametric gamma
+- parametric fc
+
+AutoWah:
+- gain
+- fc
+- Q
+- rate
+- depth
+
+WahWah:
+- gain
+- fc
+- Q
+- rate
+- depth
+
+Resonant Lowpass Filter:
+- gain
+- fc
+- Q
+
+Compressor:
+- input gain
+- attack
+- release
+- exponent
+- threshold
+- ratio
+- output gain
+

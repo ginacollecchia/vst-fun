@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf190
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 Regina Collecchia\
+5/4/14\
+MUS 424, HW4\
+\
+1.a. Spectrogram of the linear sweep through the original distortion effect: lots of aliasing, and very audible! The \'93down-turning\'94 frequency sweeps would not be there in the presence of an anti-aliasing filter.\
+{{\NeXTGraphic hw4_1a.png \width11200 \height8380
+}¬}\
+1.b. I applied a 12th-order Butterworth filter with cutoff frequency wc = 1/8*18000Hz. A spectrogram of the hard-clipped distortion reveals no aliasing, while the soft-clipped distortion has harmonics. Aurally, however, the soft-clipped signal is more pleasing and the hard-clipped is more abrasive.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 {{\NeXTGraphic softclip.png \width11200 \height8380
+}¬}{{\NeXTGraphic hardclip.png \width11200 \height8380
+}¬}\
+\
+1.c. Using the same coefficients as the Resonant Low Pass, the input and output filters are already initialized in the constructor.\
+\
+2.a. The DC offset gamma in the asymmetric saturator shifts the average of the sine wave (0) up when it equals 1. Adding a DC offset to the output produces a larger offset from the average and a richer set of harmonics in the distorted sine wave.\
+\
+Soft-clip:\
+{{\NeXTGraphic hw4_2apt1.png \width11200 \height8380
+}¬}\
+Hard-clip:\
+{{\NeXTGraphic hw4_2apt2.png \width11200 \height8380
+}¬}\
+2.b. The impulse response of the filter H(s)^2 = s^2/(s^2 + 2sw_c + w_c^2) is\
+\
+{{\NeXTGraphic hw4_2b.png \width11200 \height8380
+}¬}\
+computed using impz(B,A) where\
+\
+	B = [c^2, -2*c^2, c^2]/alpha;\
+	A = [-2*c^2+2*wc^2, wc^2]/alpha;\
+\
+for c = 2*fs, wc = 2*pi*5 and alpha = c^2 + c + wc^2. The T60 time in the passband [1,5]Hz is about 2.5s.}

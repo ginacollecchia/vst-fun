@@ -1,0 +1,1967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		52325953B3FF5BE254255E65 = {
+			isa = PBXBuildFile;
+			fileRef = 1D46590DBD271FFD662F4C40;
+		};
+		7956FB31E9D91315D4E2888F = {
+			isa = PBXBuildFile;
+			fileRef = 4CABC734FB1D686B7DFCB9BE;
+		};
+		4B2CCB9A54AF0CB85D58F53D = {
+			isa = PBXBuildFile;
+			fileRef = 51F2434D494196017009AF27;
+		};
+		62B357A265E8A0B6EC08ABD7 = {
+			isa = PBXBuildFile;
+			fileRef = 5ACB472B6A44D7763CE8B5AA;
+		};
+		3A9D64E120508C42B50FBEFC = {
+			isa = PBXBuildFile;
+			fileRef = 41AB56F6D97ACD40D5961F6E;
+		};
+		70ECB2AA217FD85AE33AC8CF = {
+			isa = PBXBuildFile;
+			fileRef = 3A93D255AEF98B4BFF32D278;
+		};
+		615AF5B628053DB2EEA224F1 = {
+			isa = PBXBuildFile;
+			fileRef = 09225DF0E76A8268136D3EAB;
+		};
+		78C30B58473A28CF207588C5 = {
+			isa = PBXBuildFile;
+			fileRef = 6D5F516C9F27E57D8C3316C3;
+		};
+		55BD5DB403919CED848A11A8 = {
+			isa = PBXBuildFile;
+			fileRef = 2D40469E7C01291A1FBFADDF;
+		};
+		148AA28A5C8D7BB0BB431F78 = {
+			isa = PBXBuildFile;
+			fileRef = 60591038141361F0D4AABECB;
+		};
+		43CFEDE066FC1960295650C2 = {
+			isa = PBXBuildFile;
+			fileRef = 980AA781A319A50938644FBF;
+		};
+		7ADF4E282E70FC820793990B = {
+			isa = PBXBuildFile;
+			fileRef = 6C40B8B1529D68F99F7C66E5;
+		};
+		141FD6EC7DCD392569793118 = {
+			isa = PBXBuildFile;
+			fileRef = ADD9E70686200D61D8B977B4;
+		};
+		664A4BFDBCD7F7480C60C1C5 = {
+			isa = PBXBuildFile;
+			fileRef = 6ED06342F8AD4275F6130E03;
+		};
+		8CECBE24750B025A4ECC48BE = {
+			isa = PBXBuildFile;
+			fileRef = CFFDEE7B3170AA74C952BBC8;
+		};
+		5DABC86AFC13E627FEB108F6 = {
+			isa = PBXBuildFile;
+			fileRef = 2C0900A906A6E8A318D9AF11;
+		};
+		7F967A9AD054868DF8926CA7 = {
+			isa = PBXBuildFile;
+			fileRef = 7D8C91ED73EC7F72A70184D0;
+		};
+		A6F24E75C53621E17E73F3CD = {
+			isa = PBXBuildFile;
+			fileRef = 5286C7F109BBAE0D2A3CB8E5;
+		};
+		389DC55C36E1F04C3963E460 = {
+			isa = PBXBuildFile;
+			fileRef = 4EE478CAA3470652DCB9EB29;
+		};
+		B9F8B9B0C7039447AB333AD3 = {
+			isa = PBXBuildFile;
+			fileRef = 5479C03D4EC87A8BE3856602;
+		};
+		7E64CCE70374EF396254AC9A = {
+			isa = PBXBuildFile;
+			fileRef = 714F32D009C25479F91ACB2D;
+		};
+		31A5FBE7C73147DF43D78BA5 = {
+			isa = PBXBuildFile;
+			fileRef = E8444BA17B6690EE49CBA70F;
+		};
+		CF4C04126A10AA5B61E3ABD9 = {
+			isa = PBXBuildFile;
+			fileRef = C58C2AABBC56B931669D0937;
+		};
+		0AF0CA3B95BB54C12F699F36 = {
+			isa = PBXBuildFile;
+			fileRef = 45FD197FAB7C27C6EAFE2D17;
+		};
+		817EBBC2DBECD3DC105A9B0A = {
+			isa = PBXBuildFile;
+			fileRef = EF443D591E41275774562473;
+		};
+		CC2AD6F2EDB15FE27720EE2B = {
+			isa = PBXBuildFile;
+			fileRef = FBFB065F519BF1BD68E80BDF;
+		};
+		9FDF662B9976532AAE08D63A = {
+			isa = PBXBuildFile;
+			fileRef = EF5D21275D526DE6F4CBEE2E;
+		};
+		F604EB1C302BC44ECB04AA7B = {
+			isa = PBXBuildFile;
+			fileRef = 75B0F079F148D9CA1EAD2081;
+		};
+		4BBD4CE4C754AF2B39BEA6FC = {
+			isa = PBXBuildFile;
+			fileRef = 91B176FC69097140E851A6FF;
+		};
+		78AEAEAA03402971B7BE3DA1 = {
+			isa = PBXBuildFile;
+			fileRef = 2C6FCDF065261E6BE1871ED1;
+		};
+		1CC6E5D9439673FA696655A0 = {
+			isa = PBXBuildFile;
+			fileRef = 167424351DBCA507863A0BC5;
+		};
+		176F43274458D3B4A64A89C3 = {
+			isa = PBXBuildFile;
+			fileRef = 512BEC39CC3C65542A68F7EF;
+		};
+		106BD805315B4EC0AA5A437D = {
+			isa = PBXBuildFile;
+			fileRef = 5950986A365A11F109E3DFDE;
+		};
+		7ADF5E041AE5BA99C7A0683D = {
+			isa = PBXBuildFile;
+			fileRef = 6EAECAD44CCCB6EA7E3EBEA1;
+		};
+		CB2129235D0A5FCC4E2A182E = {
+			isa = PBXBuildFile;
+			fileRef = 6F0478BEC6FD42FDC21B46AC;
+		};
+		B71C504BFB425C74F913A738 = {
+			isa = PBXBuildFile;
+			fileRef = 9BF95B46E1AE37CFC774C11E;
+		};
+		61EAB63C97B8F9D259B4F5DB = {
+			isa = PBXBuildFile;
+			fileRef = 8C17D8FFE7BC26D21039BE62;
+		};
+		09225DF0E76A8268136D3EAB = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AudioToolbox.framework;
+			path = System/Library/Frameworks/AudioToolbox.framework;
+			sourceTree = SDKROOT;
+		};
+		0FBA97F14B6555A0E6807EF1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_data_structures";
+			path = "~/Coding/JUCE/modules/juce_data_structures";
+			sourceTree = "<absolute>";
+		};
+		167424351DBCA507863A0BC5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_utils.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_utils.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1D46590DBD271FFD662F4C40 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = Gain.vst3;
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		2C0900A906A6E8A318D9AF11 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = WebKit.framework;
+			path = System/Library/Frameworks/WebKit.framework;
+			sourceTree = SDKROOT;
+		};
+		2C6FCDF065261E6BE1871ED1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_processors.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_processors.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2D40469E7C01291A1FBFADDF = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = System/Library/Frameworks/Cocoa.framework;
+			sourceTree = SDKROOT;
+		};
+		2D7DB21AD0AEE2413DB63E15 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_plugin_client";
+			path = "~/Coding/JUCE/modules/juce_audio_plugin_client";
+			sourceTree = "<absolute>";
+		};
+		3A93D255AEF98B4BFF32D278 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Accelerate.framework;
+			path = System/Library/Frameworks/Accelerate.framework;
+			sourceTree = SDKROOT;
+		};
+		3FA641B7CECAD8E32FD8187E = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_devices";
+			path = "~/Coding/JUCE/modules/juce_audio_devices";
+			sourceTree = "<absolute>";
+		};
+		41AB56F6D97ACD40D5961F6E = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AudioUnit.framework;
+			path = System/Library/Frameworks/AudioUnit.framework;
+			sourceTree = SDKROOT;
+		};
+		45FD197FAB7C27C6EAFE2D17 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_plugin_client_AU_1.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		48C0547DFD22EBB2CC47A1DB = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_graphics";
+			path = "~/Coding/JUCE/modules/juce_graphics";
+			sourceTree = "<absolute>";
+		};
+		4CABC734FB1D686B7DFCB9BE = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = Gain.component;
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		4EE478CAA3470652DCB9EB29 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = PluginEditor.cpp;
+			path = ../../Source/PluginEditor.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		512BEC39CC3C65542A68F7EF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_core.mm";
+			path = "../../JuceLibraryCode/include_juce_core.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		51F2434D494196017009AF27 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = Gain.app;
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		5286C7F109BBAE0D2A3CB8E5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = PluginProcessor.cpp;
+			path = ../../Source/PluginProcessor.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		5479C03D4EC87A8BE3856602 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_basics.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_basics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		583179EB6DD9C9663EF64FFF = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_events";
+			path = "~/Coding/JUCE/modules/juce_events";
+			sourceTree = "<absolute>";
+		};
+		5950986A365A11F109E3DFDE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_data_structures.mm";
+			path = "../../JuceLibraryCode/include_juce_data_structures.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5ACB472B6A44D7763CE8B5AA = {
+			isa = PBXFileReference;
+			explicitFileType = archive.ar;
+			includeInIndex = 0;
+			path = libGain.a;
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		5ED571E549AE7056E7463DF3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_utils";
+			path = "~/Coding/JUCE/modules/juce_audio_utils";
+			sourceTree = "<absolute>";
+		};
+		60591038141361F0D4AABECB = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreAudio.framework;
+			path = System/Library/Frameworks/CoreAudio.framework;
+			sourceTree = SDKROOT;
+		};
+		682B58E55FCF015F01ABAC10 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_basics";
+			path = "~/Coding/JUCE/modules/juce_gui_basics";
+			sourceTree = "<absolute>";
+		};
+		6C40B8B1529D68F99F7C66E5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreMIDI.framework;
+			path = System/Library/Frameworks/CoreMIDI.framework;
+			sourceTree = SDKROOT;
+		};
+		6D5F516C9F27E57D8C3316C3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = System/Library/Frameworks/Carbon.framework;
+			sourceTree = SDKROOT;
+		};
+		6EAECAD44CCCB6EA7E3EBEA1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_events.mm";
+			path = "../../JuceLibraryCode/include_juce_events.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6ED06342F8AD4275F6130E03 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = IOKit.framework;
+			path = System/Library/Frameworks/IOKit.framework;
+			sourceTree = SDKROOT;
+		};
+		6F0478BEC6FD42FDC21B46AC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_graphics.mm";
+			path = "../../JuceLibraryCode/include_juce_graphics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		714F32D009C25479F91ACB2D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_devices.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_devices.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		75B0F079F148D9CA1EAD2081 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_plugin_client_VST_utils.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7A3E72DDD157B5CB65E1B89B = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_formats";
+			path = "~/Coding/JUCE/modules/juce_audio_formats";
+			sourceTree = "<absolute>";
+		};
+		7D8C91ED73EC7F72A70184D0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.nib;
+			name = RecentFilesMenuTemplate.nib;
+			path = RecentFilesMenuTemplate.nib;
+			sourceTree = "SOURCE_ROOT";
+		};
+		8A3DCC065D6B5F3891D8B9FF = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_extra";
+			path = "~/Coding/JUCE/modules/juce_gui_extra";
+			sourceTree = "<absolute>";
+		};
+		8C17D8FFE7BC26D21039BE62 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_gui_extra.mm";
+			path = "../../JuceLibraryCode/include_juce_gui_extra.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		91B176FC69097140E851A6FF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "include_juce_audio_plugin_client_VST3.cpp";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		980AA781A319A50938644FBF = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreAudioKit.framework;
+			path = System/Library/Frameworks/CoreAudioKit.framework;
+			sourceTree = SDKROOT;
+		};
+		9BF95B46E1AE37CFC774C11E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_gui_basics.mm";
+			path = "../../JuceLibraryCode/include_juce_gui_basics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		ADD9E70686200D61D8B977B4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = DiscRecording.framework;
+			path = System/Library/Frameworks/DiscRecording.framework;
+			sourceTree = SDKROOT;
+		};
+		C3F8670091A53CD132D01391 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_basics";
+			path = "~/Coding/JUCE/modules/juce_audio_basics";
+			sourceTree = "<absolute>";
+		};
+		C58C2AABBC56B931669D0937 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.r;
+			name = "include_juce_audio_plugin_client_AU.r";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU.r";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CD1C524F7F1DDBCF3FA62243 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = JuceHeader.h;
+			path = ../../JuceLibraryCode/JuceHeader.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		CFFDEE7B3170AA74C952BBC8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = QuartzCore.framework;
+			path = System/Library/Frameworks/QuartzCore.framework;
+			sourceTree = SDKROOT;
+		};
+		D4F4D6F1D36DE2AE8D5A85D0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Info-AU.plist";
+			path = "Info-AU.plist";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E0A0E0B31BDDB50097D796F9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Info-VST3.plist";
+			path = "Info-VST3.plist";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E7D399AE9EE7C283F747A7D6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_processors";
+			path = "~/Coding/JUCE/modules/juce_audio_processors";
+			sourceTree = "<absolute>";
+		};
+		E80A452D71413A155712E422 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_core";
+			path = "~/Coding/JUCE/modules/juce_core";
+			sourceTree = "<absolute>";
+		};
+		E8444BA17B6690EE49CBA70F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_formats.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_formats.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EF443D591E41275774562473 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_plugin_client_AU_2.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EF5D21275D526DE6F4CBEE2E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "include_juce_audio_plugin_client_utils.cpp";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EF8B020A744B69195A2C1632 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = JucePluginDefines.h;
+			path = ../../JuceLibraryCode/JucePluginDefines.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		F0E78F79F5B02C704429D9DE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PluginProcessor.h;
+			path = ../../Source/PluginProcessor.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		F9AAE1C4B4B301184FB67C33 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Info-Standalone_Plugin.plist";
+			path = "Info-Standalone_Plugin.plist";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FBFB065F519BF1BD68E80BDF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "include_juce_audio_plugin_client_Standalone.cpp";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FF8C6F4A1612445D7E47B64F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PluginEditor.h;
+			path = ../../Source/PluginEditor.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		35A8D9C02399F7E224833B01 = {
+			isa = PBXGroup;
+			children = (
+				5286C7F109BBAE0D2A3CB8E5,
+				F0E78F79F5B02C704429D9DE,
+				4EE478CAA3470652DCB9EB29,
+				FF8C6F4A1612445D7E47B64F,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		01E4835AFD39D0C6A4173830 = {
+			isa = PBXGroup;
+			children = (
+				35A8D9C02399F7E224833B01,
+			);
+			name = Gain;
+			sourceTree = "<group>";
+		};
+		CDFBEC8F9CB19783AB09F511 = {
+			isa = PBXGroup;
+			children = (
+				C3F8670091A53CD132D01391,
+				3FA641B7CECAD8E32FD8187E,
+				7A3E72DDD157B5CB65E1B89B,
+				2D7DB21AD0AEE2413DB63E15,
+				E7D399AE9EE7C283F747A7D6,
+				5ED571E549AE7056E7463DF3,
+				E80A452D71413A155712E422,
+				0FBA97F14B6555A0E6807EF1,
+				583179EB6DD9C9663EF64FFF,
+				48C0547DFD22EBB2CC47A1DB,
+				682B58E55FCF015F01ABAC10,
+				8A3DCC065D6B5F3891D8B9FF,
+			);
+			name = "JUCE Modules";
+			sourceTree = "<group>";
+		};
+		0E08D730D1126A52381AD45F = {
+			isa = PBXGroup;
+			children = (
+				5479C03D4EC87A8BE3856602,
+				714F32D009C25479F91ACB2D,
+				E8444BA17B6690EE49CBA70F,
+				C58C2AABBC56B931669D0937,
+				45FD197FAB7C27C6EAFE2D17,
+				EF443D591E41275774562473,
+				FBFB065F519BF1BD68E80BDF,
+				EF5D21275D526DE6F4CBEE2E,
+				75B0F079F148D9CA1EAD2081,
+				91B176FC69097140E851A6FF,
+				2C6FCDF065261E6BE1871ED1,
+				167424351DBCA507863A0BC5,
+				512BEC39CC3C65542A68F7EF,
+				5950986A365A11F109E3DFDE,
+				6EAECAD44CCCB6EA7E3EBEA1,
+				6F0478BEC6FD42FDC21B46AC,
+				9BF95B46E1AE37CFC774C11E,
+				8C17D8FFE7BC26D21039BE62,
+				CD1C524F7F1DDBCF3FA62243,
+				EF8B020A744B69195A2C1632,
+			);
+			name = "JUCE Library Code";
+			sourceTree = "<group>";
+		};
+		1A04EFCC62B5F49006754779 = {
+			isa = PBXGroup;
+			children = (
+				E0A0E0B31BDDB50097D796F9,
+				D4F4D6F1D36DE2AE8D5A85D0,
+				F9AAE1C4B4B301184FB67C33,
+				7D8C91ED73EC7F72A70184D0,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AA721CA7CD571492B3A41B49 = {
+			isa = PBXGroup;
+			children = (
+				41AB56F6D97ACD40D5961F6E,
+				3A93D255AEF98B4BFF32D278,
+				09225DF0E76A8268136D3EAB,
+				6D5F516C9F27E57D8C3316C3,
+				2D40469E7C01291A1FBFADDF,
+				60591038141361F0D4AABECB,
+				980AA781A319A50938644FBF,
+				6C40B8B1529D68F99F7C66E5,
+				ADD9E70686200D61D8B977B4,
+				6ED06342F8AD4275F6130E03,
+				CFFDEE7B3170AA74C952BBC8,
+				2C0900A906A6E8A318D9AF11,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5900C0EE4755F47D2C3970F1 = {
+			isa = PBXGroup;
+			children = (
+				1D46590DBD271FFD662F4C40,
+				4CABC734FB1D686B7DFCB9BE,
+				51F2434D494196017009AF27,
+				5ACB472B6A44D7763CE8B5AA,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24871FA13662E773C05F453D = {
+			isa = PBXGroup;
+			children = (
+				01E4835AFD39D0C6A4173830,
+				CDFBEC8F9CB19783AB09F511,
+				0E08D730D1126A52381AD45F,
+				1A04EFCC62B5F49006754779,
+				AA721CA7CD571492B3A41B49,
+				5900C0EE4755F47D2C3970F1,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		C02F6B5BD57E7442CA021007 = {
+			isa = PBXTargetDependency;
+			target = 370A70BC882F2AFD1C78EE85;
+		};
+		CDEA639463D96A6B69648E2D = {
+			isa = PBXTargetDependency;
+			target = 7C1E26C8DEC095BE84F96C9D;
+		};
+		21A7BCBA6919D290DB9F48F5 = {
+			isa = PBXTargetDependency;
+			target = 301DE5C88E46705E94D25DD2;
+		};
+		134096792AA6DC11E6DBBDEC = {
+			isa = PBXTargetDependency;
+			target = CDFEEDF5A6B21B51F070A59D;
+		};
+		370786F7836C041389923CF8 = {
+			isa = PBXTargetDependency;
+			target = CDFEEDF5A6B21B51F070A59D;
+		};
+		A97DC751EFA0B2C700E7913A = {
+			isa = PBXTargetDependency;
+			target = CDFEEDF5A6B21B51F070A59D;
+		};
+		96924DAC1A3DB8018D1EEA07 = {
+			isa = PBXTargetDependency;
+			target = CDFEEDF5A6B21B51F070A59D;
+		};
+		1E0733437D3790AC8E29DFB2 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		957DCA8080CB1322666B04F7 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A828B51D7989430C8A8F4E4A = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Gain\\\"",
+					"JucePlugin_Desc=\\\"Gain\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x46747168",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=GainAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"GainAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ Gain\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-VST3.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-bundle -lGain";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Gain;
+				PRODUCT_NAME = "Gain";
+				USE_HEADERMAP = NO;
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		626B34393233A8D9C4455C2D = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Gain\\\"",
+					"JucePlugin_Desc=\\\"Gain\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x46747168",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=GainAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"GainAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ Gain\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-VST3.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
+				LIBRARY_STYLE = Bundle;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-bundle -lGain";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Gain;
+				PRODUCT_NAME = "Gain";
+				USE_HEADERMAP = NO;
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		4E1FA286547E4FFB2F777E81 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Gain\\\"",
+					"JucePlugin_Desc=\\\"Gain\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x46747168",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=GainAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"GainAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ Gain\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-AU.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-bundle -lGain";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Gain;
+				PRODUCT_NAME = "Gain";
+				USE_HEADERMAP = NO;
+				WRAPPER_EXTENSION = component;
+			};
+			name = Debug;
+		};
+		E6C2677B02A5812BA3BCE326 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Gain\\\"",
+					"JucePlugin_Desc=\\\"Gain\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x46747168",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=GainAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"GainAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ Gain\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-AU.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_STYLE = Bundle;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-bundle -lGain";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Gain;
+				PRODUCT_NAME = "Gain";
+				USE_HEADERMAP = NO;
+				WRAPPER_EXTENSION = component;
+			};
+			name = Release;
+		};
+		1D6C0AAB399C3B137C2396E9 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Gain\\\"",
+					"JucePlugin_Desc=\\\"Gain\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x46747168",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=GainAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"GainAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ Gain\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
+				INFOPLIST_PREPROCESS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-lGain";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Gain;
+				PRODUCT_NAME = "Gain";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		1562C0426E9711CAF1200407 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Gain\\\"",
+					"JucePlugin_Desc=\\\"Gain\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x46747168",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=GainAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"GainAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ Gain\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
+				INFOPLIST_PREPROCESS = NO;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-lGain";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Gain;
+				PRODUCT_NAME = "Gain";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		13569DA57A4854EB08EE88C7 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_SHARED_CODE=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Gain\\\"",
+					"JucePlugin_Desc=\\\"Gain\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x46747168",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=GainAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"GainAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ Gain\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Gain;
+				PRODUCT_NAME = "Gain";
+				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		229C8808CAA036D4A9B3714A = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_SHARED_CODE=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Gain\\\"",
+					"JucePlugin_Desc=\\\"Gain\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x46747168",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=GainAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"GainAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.Gain",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ Gain\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Gain;
+				PRODUCT_NAME = "Gain";
+				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		1ECE09C4EAA64EE7BCFD32EA = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Gain";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		6D3E19DA65AB8DCD7B517E32 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "Gain";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		663D5940E0A2A90169363058 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECE09C4EAA64EE7BCFD32EA,
+				6D3E19DA65AB8DCD7B517E32,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		92933AA8F2F27CD133AB6A0B = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0733437D3790AC8E29DFB2,
+				957DCA8080CB1322666B04F7,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1F2D11B28DAE3D3A5043B9E = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 92933AA8F2F27CD133AB6A0B;
+			buildPhases = ( );
+			buildRules = ( );
+			dependencies = (
+				C02F6B5BD57E7442CA021007,
+				CDEA639463D96A6B69648E2D,
+				21A7BCBA6919D290DB9F48F5,
+				134096792AA6DC11E6DBBDEC,
+			);
+			name = "Gain - All";
+			productName = Gain;
+		};
+		35E47AC8B318BF9097779A38 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A828B51D7989430C8A8F4E4A,
+				626B34393233A8D9C4455C2D,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7C20EE200DE665CCFE603E17 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F967A9AD054868DF8926CA7,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F89050204A77EDF1BE7DDC0 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBD4CE4C754AF2B39BEA6FC,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38767B6CF7688AD5BA5B6C22 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ECB2AA217FD85AE33AC8CF,
+				615AF5B628053DB2EEA224F1,
+				78C30B58473A28CF207588C5,
+				55BD5DB403919CED848A11A8,
+				148AA28A5C8D7BB0BB431F78,
+				43CFEDE066FC1960295650C2,
+				7ADF4E282E70FC820793990B,
+				141FD6EC7DCD392569793118,
+				664A4BFDBCD7F7480C60C1C5,
+				8CECBE24750B025A4ECC48BE,
+				5DABC86AFC13E627FEB108F6,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370A70BC882F2AFD1C78EE85 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E47AC8B318BF9097779A38;
+			buildPhases = (
+				7C20EE200DE665CCFE603E17,
+				2F89050204A77EDF1BE7DDC0,
+				38767B6CF7688AD5BA5B6C22,
+			);
+			buildRules = ( );
+			dependencies = (
+				370786F7836C041389923CF8,
+			);
+			name = "Gain - VST3";
+			productName = Gain;
+			productReference = 1D46590DBD271FFD662F4C40;
+			productType = "com.apple.product-type.bundle";
+		};
+		B0DEBBCFA80A0BC80CD8F777 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1FA286547E4FFB2F777E81,
+				E6C2677B02A5812BA3BCE326,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1D6649303A11DFF100301FB9 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F967A9AD054868DF8926CA7,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF216B0FD7E8284E50A672A = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4C04126A10AA5B61E3ABD9,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F7DD06D26BB87BF8E2B83A = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF0CA3B95BB54C12F699F36,
+				817EBBC2DBECD3DC105A9B0A,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CBACD510C05B6206606F60 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9D64E120508C42B50FBEFC,
+				70ECB2AA217FD85AE33AC8CF,
+				615AF5B628053DB2EEA224F1,
+				78C30B58473A28CF207588C5,
+				55BD5DB403919CED848A11A8,
+				148AA28A5C8D7BB0BB431F78,
+				43CFEDE066FC1960295650C2,
+				7ADF4E282E70FC820793990B,
+				141FD6EC7DCD392569793118,
+				664A4BFDBCD7F7480C60C1C5,
+				8CECBE24750B025A4ECC48BE,
+				5DABC86AFC13E627FEB108F6,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C1E26C8DEC095BE84F96C9D = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0DEBBCFA80A0BC80CD8F777;
+			buildPhases = (
+				1D6649303A11DFF100301FB9,
+				3AF216B0FD7E8284E50A672A,
+				F1F7DD06D26BB87BF8E2B83A,
+				E8CBACD510C05B6206606F60,
+			);
+			buildRules = ( );
+			dependencies = (
+				A97DC751EFA0B2C700E7913A,
+			);
+			name = "Gain - AU";
+			productName = Gain;
+			productReference = 4CABC734FB1D686B7DFCB9BE;
+			productType = "com.apple.product-type.bundle";
+		};
+		858BBAE130BF11F3D62E89E7 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6C0AAB399C3B137C2396E9,
+				1562C0426E9711CAF1200407,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		63239E27A48B7ECD0E9B1F36 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F967A9AD054868DF8926CA7,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067A6CDC6B323B45246C02C6 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2AD6F2EDB15FE27720EE2B,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB70ABF7C2B848CCB0E6088 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ECB2AA217FD85AE33AC8CF,
+				615AF5B628053DB2EEA224F1,
+				78C30B58473A28CF207588C5,
+				55BD5DB403919CED848A11A8,
+				148AA28A5C8D7BB0BB431F78,
+				43CFEDE066FC1960295650C2,
+				7ADF4E282E70FC820793990B,
+				141FD6EC7DCD392569793118,
+				664A4BFDBCD7F7480C60C1C5,
+				8CECBE24750B025A4ECC48BE,
+				5DABC86AFC13E627FEB108F6,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301DE5C88E46705E94D25DD2 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858BBAE130BF11F3D62E89E7;
+			buildPhases = (
+				63239E27A48B7ECD0E9B1F36,
+				067A6CDC6B323B45246C02C6,
+				9AB70ABF7C2B848CCB0E6088,
+			);
+			buildRules = ( );
+			dependencies = (
+				96924DAC1A3DB8018D1EEA07,
+			);
+			name = "Gain - Standalone Plugin";
+			productName = Gain;
+			productReference = 51F2434D494196017009AF27;
+			productType = "com.apple.product-type.application";
+		};
+		DFABEEEE150548267B3BDA62 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13569DA57A4854EB08EE88C7,
+				229C8808CAA036D4A9B3714A,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9BCDC433765B9157366434E4 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F24E75C53621E17E73F3CD,
+				389DC55C36E1F04C3963E460,
+				B9F8B9B0C7039447AB333AD3,
+				7E64CCE70374EF396254AC9A,
+				31A5FBE7C73147DF43D78BA5,
+				9FDF662B9976532AAE08D63A,
+				F604EB1C302BC44ECB04AA7B,
+				78AEAEAA03402971B7BE3DA1,
+				1CC6E5D9439673FA696655A0,
+				176F43274458D3B4A64A89C3,
+				106BD805315B4EC0AA5A437D,
+				7ADF5E041AE5BA99C7A0683D,
+				CB2129235D0A5FCC4E2A182E,
+				B71C504BFB425C74F913A738,
+				61EAB63C97B8F9D259B4F5DB,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFEEDF5A6B21B51F070A59D = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFABEEEE150548267B3BDA62;
+			buildPhases = (
+				9BCDC433765B9157366434E4,
+			);
+			buildRules = ( );
+			dependencies = ( );
+			name = "Gain - Shared Code";
+			productName = Gain;
+			productReference = 5ACB472B6A44D7763CE8B5AA;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB7BBEB30437DEBF3F4DB2F4 = {
+			isa = PBXProject;
+			buildConfigurationList = 663D5940E0A2A90169363058;
+			attributes = { LastUpgradeCheck = 1100; ORGANIZATIONNAME = "Gina Collecchia"; TargetAttributes = { D1F2D11B28DAE3D3A5043B9E = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };370A70BC882F2AFD1C78EE85 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };7C1E26C8DEC095BE84F96C9D = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };301DE5C88E46705E94D25DD2 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };CDFEEDF5A6B21B51F070A59D = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 24871FA13662E773C05F453D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (D1F2D11B28DAE3D3A5043B9E, 370A70BC882F2AFD1C78EE85, 7C1E26C8DEC095BE84F96C9D, 301DE5C88E46705E94D25DD2, CDFEEDF5A6B21B51F070A59D);
+			knownRegions = (en, Base);
+		};
+	};
+	rootObject = AB7BBEB30437DEBF3F4DB2F4;
+}

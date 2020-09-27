@@ -1,0 +1,2004 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		7C4FD8EE03EBFA1E31AC9B48 = {
+			isa = PBXBuildFile;
+			fileRef = 92CE785D1AC4BFD7A3A933A9;
+		};
+		ADE60EE1A0B5C16C9B125690 = {
+			isa = PBXBuildFile;
+			fileRef = F52AC19133C0A958B4C75FA2;
+		};
+		C163A2E1F386CA0BFA9A790B = {
+			isa = PBXBuildFile;
+			fileRef = 722D919FA20AE4B96F8BD121;
+		};
+		3A139EF93BDF1AD14D6BBDD2 = {
+			isa = PBXBuildFile;
+			fileRef = 8E957797AE6F0883D3C9C2F2;
+		};
+		BDA78A1E1344684634EE697E = {
+			isa = PBXBuildFile;
+			fileRef = F32D9C0B828952019C4ADBB6;
+		};
+		59E328C7ED776C33AEFF6810 = {
+			isa = PBXBuildFile;
+			fileRef = 13AE55A5491769DC3BFF9050;
+		};
+		E2757C6D257DA281A8A46047 = {
+			isa = PBXBuildFile;
+			fileRef = 15E345BE1722848D84B9EA6E;
+		};
+		235E576F3A74947BF628A588 = {
+			isa = PBXBuildFile;
+			fileRef = 948094809C13D7CCE0DFE751;
+		};
+		30EE697DA4D57CE752CC0DAA = {
+			isa = PBXBuildFile;
+			fileRef = B6019241E6FB918C0EBCA999;
+		};
+		5D61A36D4D578540BDF70516 = {
+			isa = PBXBuildFile;
+			fileRef = 2D977FABA792487E8D8F94AC;
+		};
+		C27C88EE344DA0D06457D8D9 = {
+			isa = PBXBuildFile;
+			fileRef = A8487394CE3F982FBDE0A333;
+		};
+		7467F3D3E4EE6ACC6BCAC279 = {
+			isa = PBXBuildFile;
+			fileRef = 544D98EDF1EE75ACF3062D92;
+		};
+		18EBE91AA64DA1873725BA37 = {
+			isa = PBXBuildFile;
+			fileRef = 133123CAB71F5C973F090769;
+		};
+		570A33475425D524648AB702 = {
+			isa = PBXBuildFile;
+			fileRef = 39D7C668B0555423900743AC;
+		};
+		87C2B58BF80785EBB3D17B6C = {
+			isa = PBXBuildFile;
+			fileRef = 5858C2F03E7D97D8DFE28026;
+		};
+		ADF3150C6266011F0A25B4F1 = {
+			isa = PBXBuildFile;
+			fileRef = 80DBAA3A4188BC45FAD227E2;
+		};
+		7277A8DE04B67102CB6C15CC = {
+			isa = PBXBuildFile;
+			fileRef = EB153CE172DB86CC64C3BDF0;
+		};
+		AB777B9545BCBBF933E817B4 = {
+			isa = PBXBuildFile;
+			fileRef = 1029F1EB8697CFB00B0AF9FC;
+		};
+		6D3C16246949F425DEBA9169 = {
+			isa = PBXBuildFile;
+			fileRef = 8B2BA37A601422BB2646CCB4;
+		};
+		22535ED5EE03C29E99730DBE = {
+			isa = PBXBuildFile;
+			fileRef = 3E88A314C56940914DB426A2;
+		};
+		8764FA86F887659EBFFB7B9F = {
+			isa = PBXBuildFile;
+			fileRef = 0C3541809081E3A4090592A2;
+		};
+		B25FBD64B3F6767A482CB6C5 = {
+			isa = PBXBuildFile;
+			fileRef = 8B5623B3E27C6377D7555E1B;
+		};
+		78478985920AFFCD72D1D5B4 = {
+			isa = PBXBuildFile;
+			fileRef = C6D7CA8C588101809644FC85;
+		};
+		5C3E048382A9357C07EF24AA = {
+			isa = PBXBuildFile;
+			fileRef = 3C455522B395F180257BB598;
+		};
+		346A8FAD4ABFCB2E2EFD4163 = {
+			isa = PBXBuildFile;
+			fileRef = B1C67DC76888D8FE0628DD4B;
+		};
+		6FC440995C864AF8D3164540 = {
+			isa = PBXBuildFile;
+			fileRef = AA0FCD484C408DF305A2ACBB;
+		};
+		44A36F77833F539AF41D5A39 = {
+			isa = PBXBuildFile;
+			fileRef = 7DE6FCB0D124764E005828CD;
+		};
+		2679FB5481740614A13A23F3 = {
+			isa = PBXBuildFile;
+			fileRef = EFEA432B8E6C28EA1C0472F4;
+		};
+		1D87F754498C3BA244A4FFE7 = {
+			isa = PBXBuildFile;
+			fileRef = 3145CEB1CFFCCA4716B248E0;
+		};
+		B33CDD330E9F5A5DD53E5FFF = {
+			isa = PBXBuildFile;
+			fileRef = 13E9FBACDA70E2CF619F863E;
+		};
+		4C27134E1AF5A2F45AAEE7DA = {
+			isa = PBXBuildFile;
+			fileRef = 74F0F8E1EF95D873A7C88235;
+		};
+		4A43856EA724812350BC80BA = {
+			isa = PBXBuildFile;
+			fileRef = 0C99515AF095BBD0F19885CE;
+		};
+		3BF0F1C259275D137BB991F1 = {
+			isa = PBXBuildFile;
+			fileRef = 69FD052DC2EEAB54EC03EAA1;
+		};
+		B5CA1F2B2149C1206D575AF2 = {
+			isa = PBXBuildFile;
+			fileRef = E961D6778C0B6835A23565F0;
+		};
+		C69CC5D837CF9218715667DC = {
+			isa = PBXBuildFile;
+			fileRef = A616AC046252F81844AA0A29;
+		};
+		3C2C0F03ECD62D3557733D49 = {
+			isa = PBXBuildFile;
+			fileRef = 6A87E50F5636F15AEEE49BB4;
+		};
+		10B8DDD1D60DC1A85E630712 = {
+			isa = PBXBuildFile;
+			fileRef = 8468869B7FBFFAFC33CC4F78;
+		};
+		3FC2885E839319FA6933459F = {
+			isa = PBXBuildFile;
+			fileRef = BFCEA2AEEDAE2BC963E15556;
+		};
+		0AA683A98CEFF0F47C8D60C1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_formats";
+			path = "~/Coding/JUCE/modules/juce_audio_formats";
+			sourceTree = "<absolute>";
+		};
+		0C3541809081E3A4090592A2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_devices.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_devices.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0C99515AF095BBD0F19885CE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_core.mm";
+			path = "../../JuceLibraryCode/include_juce_core.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1029F1EB8697CFB00B0AF9FC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = PluginProcessor.cpp;
+			path = ../../Source/PluginProcessor.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		133123CAB71F5C973F090769 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = DiscRecording.framework;
+			path = System/Library/Frameworks/DiscRecording.framework;
+			sourceTree = SDKROOT;
+		};
+		13AE55A5491769DC3BFF9050 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Accelerate.framework;
+			path = System/Library/Frameworks/Accelerate.framework;
+			sourceTree = SDKROOT;
+		};
+		13E9FBACDA70E2CF619F863E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_processors.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_processors.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		15E345BE1722848D84B9EA6E = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AudioToolbox.framework;
+			path = System/Library/Frameworks/AudioToolbox.framework;
+			sourceTree = SDKROOT;
+		};
+		167AD125A0EADA5F2A0DEB6A = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_core";
+			path = "~/Coding/JUCE/modules/juce_core";
+			sourceTree = "<absolute>";
+		};
+		2AAB51246C314640930C8254 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_processors";
+			path = "~/Coding/JUCE/modules/juce_audio_processors";
+			sourceTree = "<absolute>";
+		};
+		2D977FABA792487E8D8F94AC = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreAudio.framework;
+			path = System/Library/Frameworks/CoreAudio.framework;
+			sourceTree = SDKROOT;
+		};
+		3145CEB1CFFCCA4716B248E0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "include_juce_audio_plugin_client_VST3.cpp";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		39D7C668B0555423900743AC = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = IOKit.framework;
+			path = System/Library/Frameworks/IOKit.framework;
+			sourceTree = SDKROOT;
+		};
+		3C455522B395F180257BB598 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_plugin_client_AU_1.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3D078CD29357575A23173B11 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = JucePluginDefines.h;
+			path = ../../JuceLibraryCode/JucePluginDefines.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		3E88A314C56940914DB426A2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_basics.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_basics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		501F5B582E28990C0161FE3B = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_data_structures";
+			path = "~/Coding/JUCE/modules/juce_data_structures";
+			sourceTree = "<absolute>";
+		};
+		544D98EDF1EE75ACF3062D92 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreMIDI.framework;
+			path = System/Library/Frameworks/CoreMIDI.framework;
+			sourceTree = SDKROOT;
+		};
+		5858C2F03E7D97D8DFE28026 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = QuartzCore.framework;
+			path = System/Library/Frameworks/QuartzCore.framework;
+			sourceTree = SDKROOT;
+		};
+		5B2E09CE6DC268DA033FCA12 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Info-AU.plist";
+			path = "Info-AU.plist";
+			sourceTree = "SOURCE_ROOT";
+		};
+		69FD052DC2EEAB54EC03EAA1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_data_structures.mm";
+			path = "../../JuceLibraryCode/include_juce_data_structures.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6A87E50F5636F15AEEE49BB4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_graphics.mm";
+			path = "../../JuceLibraryCode/include_juce_graphics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		74F0F8E1EF95D873A7C88235 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_utils.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_utils.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7838124D4825E6D71693CCEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_graphics";
+			path = "~/Coding/JUCE/modules/juce_graphics";
+			sourceTree = "<absolute>";
+		};
+		7BB84F4252E1DF4390BB9359 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = JuceHeader.h;
+			path = ../../JuceLibraryCode/JuceHeader.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		7DE6FCB0D124764E005828CD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "include_juce_audio_plugin_client_utils.cpp";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		80DBAA3A4188BC45FAD227E2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = WebKit.framework;
+			path = System/Library/Frameworks/WebKit.framework;
+			sourceTree = SDKROOT;
+		};
+		8468869B7FBFFAFC33CC4F78 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_gui_basics.mm";
+			path = "../../JuceLibraryCode/include_juce_gui_basics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8B2BA37A601422BB2646CCB4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = PluginEditor.cpp;
+			path = ../../Source/PluginEditor.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		8B5623B3E27C6377D7555E1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_formats.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_formats.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		92C4205BFF705ECEECDD3A8C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PluginProcessor.h;
+			path = ../../Source/PluginProcessor.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		92CE785D1AC4BFD7A3A933A9 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = ResonantLowPass.vst3;
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		948094809C13D7CCE0DFE751 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = System/Library/Frameworks/Carbon.framework;
+			sourceTree = SDKROOT;
+		};
+		970BD0F1E9A270667E57DE36 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Info-VST3.plist";
+			path = "Info-VST3.plist";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A4A79CC2EA6A3C5EB2DDDC61 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = Biquad.h;
+			path = ../../Source/Biquad.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		A616AC046252F81844AA0A29 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_events.mm";
+			path = "../../JuceLibraryCode/include_juce_events.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A8487394CE3F982FBDE0A333 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreAudioKit.framework;
+			path = System/Library/Frameworks/CoreAudioKit.framework;
+			sourceTree = SDKROOT;
+		};
+		AA0FCD484C408DF305A2ACBB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "include_juce_audio_plugin_client_Standalone.cpp";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		AA6B88F7CED523FF04D0DA68 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_basics";
+			path = "~/Coding/JUCE/modules/juce_audio_basics";
+			sourceTree = "<absolute>";
+		};
+		B1C67DC76888D8FE0628DD4B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_plugin_client_AU_2.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B5B46AF9A683F9D062DAD816 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_events";
+			path = "~/Coding/JUCE/modules/juce_events";
+			sourceTree = "<absolute>";
+		};
+		B6019241E6FB918C0EBCA999 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = System/Library/Frameworks/Cocoa.framework;
+			sourceTree = SDKROOT;
+		};
+		B6BFA411D2BD640411FA10DA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PluginEditor.h;
+			path = ../../Source/PluginEditor.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		BFCEA2AEEDAE2BC963E15556 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_gui_extra.mm";
+			path = "../../JuceLibraryCode/include_juce_gui_extra.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C4DA0DE479EF56D098C38E54 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_plugin_client";
+			path = "~/Coding/JUCE/modules/juce_audio_plugin_client";
+			sourceTree = "<absolute>";
+		};
+		C6D7CA8C588101809644FC85 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.r;
+			name = "include_juce_audio_plugin_client_AU.r";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU.r";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E34C7B97796AFCE61009B557 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_basics";
+			path = "~/Coding/JUCE/modules/juce_gui_basics";
+			sourceTree = "<absolute>";
+		};
+		EB153CE172DB86CC64C3BDF0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.nib;
+			name = RecentFilesMenuTemplate.nib;
+			path = RecentFilesMenuTemplate.nib;
+			sourceTree = "SOURCE_ROOT";
+		};
+		F52AC19133C0A958B4C75FA2 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = ResonantLowPass.component;
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		722D919FA20AE4B96F8BD121 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = ResonantLowPass.app;
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		8E957797AE6F0883D3C9C2F2 = {
+			isa = PBXFileReference;
+			explicitFileType = archive.ar;
+			includeInIndex = 0;
+			path = libResonantLowPass.a;
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		BC194EEC5777FA63F81E4BD1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_devices";
+			path = "~/Coding/JUCE/modules/juce_audio_devices";
+			sourceTree = "<absolute>";
+		};
+		D3BC2564783A9D2174B98983 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_utils";
+			path = "~/Coding/JUCE/modules/juce_audio_utils";
+			sourceTree = "<absolute>";
+		};
+		E11AFDFF6C840B9995F54017 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Info-Standalone_Plugin.plist";
+			path = "Info-Standalone_Plugin.plist";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E961D6778C0B6835A23565F0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_dsp.mm";
+			path = "../../JuceLibraryCode/include_juce_dsp.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EC985210594EF7A3C37BAB22 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_dsp";
+			path = "~/Coding/JUCE/modules/juce_dsp";
+			sourceTree = "<absolute>";
+		};
+		EFEA432B8E6C28EA1C0472F4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_plugin_client_VST_utils.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F097AE4291BE013E412308EF = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_extra";
+			path = "~/Coding/JUCE/modules/juce_gui_extra";
+			sourceTree = "<absolute>";
+		};
+		F32D9C0B828952019C4ADBB6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AudioUnit.framework;
+			path = System/Library/Frameworks/AudioUnit.framework;
+			sourceTree = SDKROOT;
+		};
+		78DBEA27FEAEF8946CC8B054 = {
+			isa = PBXGroup;
+			children = (
+				A4A79CC2EA6A3C5EB2DDDC61,
+				1029F1EB8697CFB00B0AF9FC,
+				92C4205BFF705ECEECDD3A8C,
+				8B2BA37A601422BB2646CCB4,
+				B6BFA411D2BD640411FA10DA,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		44492FD52885070935E742E3 = {
+			isa = PBXGroup;
+			children = (
+				78DBEA27FEAEF8946CC8B054,
+			);
+			name = ResonantLowPass;
+			sourceTree = "<group>";
+		};
+		C2422BB4CF8132B1086AB065 = {
+			isa = PBXGroup;
+			children = (
+				AA6B88F7CED523FF04D0DA68,
+				BC194EEC5777FA63F81E4BD1,
+				0AA683A98CEFF0F47C8D60C1,
+				C4DA0DE479EF56D098C38E54,
+				2AAB51246C314640930C8254,
+				D3BC2564783A9D2174B98983,
+				167AD125A0EADA5F2A0DEB6A,
+				501F5B582E28990C0161FE3B,
+				EC985210594EF7A3C37BAB22,
+				B5B46AF9A683F9D062DAD816,
+				7838124D4825E6D71693CCEA,
+				E34C7B97796AFCE61009B557,
+				F097AE4291BE013E412308EF,
+			);
+			name = "JUCE Modules";
+			sourceTree = "<group>";
+		};
+		01F9BBEBA0D47B1E8F694BBB = {
+			isa = PBXGroup;
+			children = (
+				3E88A314C56940914DB426A2,
+				0C3541809081E3A4090592A2,
+				8B5623B3E27C6377D7555E1B,
+				C6D7CA8C588101809644FC85,
+				3C455522B395F180257BB598,
+				B1C67DC76888D8FE0628DD4B,
+				AA0FCD484C408DF305A2ACBB,
+				7DE6FCB0D124764E005828CD,
+				EFEA432B8E6C28EA1C0472F4,
+				3145CEB1CFFCCA4716B248E0,
+				13E9FBACDA70E2CF619F863E,
+				74F0F8E1EF95D873A7C88235,
+				0C99515AF095BBD0F19885CE,
+				69FD052DC2EEAB54EC03EAA1,
+				E961D6778C0B6835A23565F0,
+				A616AC046252F81844AA0A29,
+				6A87E50F5636F15AEEE49BB4,
+				8468869B7FBFFAFC33CC4F78,
+				BFCEA2AEEDAE2BC963E15556,
+				7BB84F4252E1DF4390BB9359,
+				3D078CD29357575A23173B11,
+			);
+			name = "JUCE Library Code";
+			sourceTree = "<group>";
+		};
+		17FDB6F6FEA378A31D487F4D = {
+			isa = PBXGroup;
+			children = (
+				970BD0F1E9A270667E57DE36,
+				5B2E09CE6DC268DA033FCA12,
+				E11AFDFF6C840B9995F54017,
+				EB153CE172DB86CC64C3BDF0,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A16780C4A2365B35B9E64398 = {
+			isa = PBXGroup;
+			children = (
+				F32D9C0B828952019C4ADBB6,
+				13AE55A5491769DC3BFF9050,
+				15E345BE1722848D84B9EA6E,
+				948094809C13D7CCE0DFE751,
+				B6019241E6FB918C0EBCA999,
+				2D977FABA792487E8D8F94AC,
+				A8487394CE3F982FBDE0A333,
+				544D98EDF1EE75ACF3062D92,
+				133123CAB71F5C973F090769,
+				39D7C668B0555423900743AC,
+				5858C2F03E7D97D8DFE28026,
+				80DBAA3A4188BC45FAD227E2,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		689DC49E16FB49FA0725A4C6 = {
+			isa = PBXGroup;
+			children = (
+				92CE785D1AC4BFD7A3A933A9,
+				F52AC19133C0A958B4C75FA2,
+				722D919FA20AE4B96F8BD121,
+				8E957797AE6F0883D3C9C2F2,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAA2DAA47170D9DBD0B39097 = {
+			isa = PBXGroup;
+			children = (
+				44492FD52885070935E742E3,
+				C2422BB4CF8132B1086AB065,
+				01F9BBEBA0D47B1E8F694BBB,
+				17FDB6F6FEA378A31D487F4D,
+				A16780C4A2365B35B9E64398,
+				689DC49E16FB49FA0725A4C6,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		6E40E759D8B7259389EB3AB0 = {
+			isa = PBXTargetDependency;
+			target = 5C32EE0BA4F6ADB228C83F33;
+		};
+		88EC0318F8F15E382F441C1B = {
+			isa = PBXTargetDependency;
+			target = 07665E1CDAF0755746AC6033;
+		};
+		FBDA2F9876F8C08979140757 = {
+			isa = PBXTargetDependency;
+			target = 1252B963FE3E7061955ADE9A;
+		};
+		B15DF5043C79E46730E49484 = {
+			isa = PBXTargetDependency;
+			target = F56A705BE5EDE8E63F7F23B0;
+		};
+		BE9585410FE6193DD5D3A9C7 = {
+			isa = PBXTargetDependency;
+			target = F56A705BE5EDE8E63F7F23B0;
+		};
+		10868BD3132576E76D89B514 = {
+			isa = PBXTargetDependency;
+			target = F56A705BE5EDE8E63F7F23B0;
+		};
+		90AEAFD5C9A1CBBC5EF3E0B9 = {
+			isa = PBXTargetDependency;
+			target = F56A705BE5EDE8E63F7F23B0;
+		};
+		A49527F9F3E0B65D226EF185 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		35DA407978BCD4FD5D86996E = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D58BFA6D3224B1EC42922AF = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Desc=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x55706d77",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=ResonantLowPassAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"ResonantLowPassAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ ResonantLowPass\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-VST3.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-bundle -lResonantLowPass";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.ResonantLowPass;
+				PRODUCT_NAME = "ResonantLowPass";
+				USE_HEADERMAP = NO;
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		30F098A68E13D571F3C5E4DF = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Desc=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x55706d77",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=ResonantLowPassAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"ResonantLowPassAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ ResonantLowPass\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-VST3.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
+				LIBRARY_STYLE = Bundle;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-bundle -lResonantLowPass";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.ResonantLowPass;
+				PRODUCT_NAME = "ResonantLowPass";
+				USE_HEADERMAP = NO;
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		45A70607D46F2B799053EB3F = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Desc=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x55706d77",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=ResonantLowPassAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"ResonantLowPassAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ ResonantLowPass\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-AU.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-bundle -lResonantLowPass";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.ResonantLowPass;
+				PRODUCT_NAME = "ResonantLowPass";
+				USE_HEADERMAP = NO;
+				WRAPPER_EXTENSION = component;
+			};
+			name = Debug;
+		};
+		D8F32154D16FDAB32C6DD2CF = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Desc=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x55706d77",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=ResonantLowPassAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"ResonantLowPassAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ ResonantLowPass\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-AU.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_STYLE = Bundle;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-bundle -lResonantLowPass";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.ResonantLowPass;
+				PRODUCT_NAME = "ResonantLowPass";
+				USE_HEADERMAP = NO;
+				WRAPPER_EXTENSION = component;
+			};
+			name = Release;
+		};
+		B92C647933824D9FF1349E65 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Desc=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x55706d77",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=ResonantLowPassAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"ResonantLowPassAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ ResonantLowPass\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
+				INFOPLIST_PREPROCESS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-lResonantLowPass";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.ResonantLowPass;
+				PRODUCT_NAME = "ResonantLowPass";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		4E4FE79FDE771E06887EF54F = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Desc=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x55706d77",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=ResonantLowPassAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"ResonantLowPassAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ ResonantLowPass\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
+				INFOPLIST_PREPROCESS = NO;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-lResonantLowPass";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.ResonantLowPass;
+				PRODUCT_NAME = "ResonantLowPass";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		0EC84F13CA199109A47B23D6 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_SHARED_CODE=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Desc=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x55706d77",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=ResonantLowPassAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"ResonantLowPassAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ ResonantLowPass\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.ResonantLowPass;
+				PRODUCT_NAME = "ResonantLowPass";
+				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		940725627F674DFB0A2145D6 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_SHARED_CODE=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Desc=\\\"ResonantLowPass\\\"",
+					"JucePlugin_Manufacturer=\\\"Gina\\ Collecchia\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x55706d77",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=ResonantLowPassAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"ResonantLowPassAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.GinaCollecchia.ResonantLowPass",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Gina\\ Collecchia:\\ ResonantLowPass\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.ResonantLowPass;
+				PRODUCT_NAME = "ResonantLowPass";
+				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		C79BCED93D818C978638D50B = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "ResonantLowPass";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C4FFA7CBDF261727181423CC = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "ResonantLowPass";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		21CE6AA847925CC7C73FA65F = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79BCED93D818C978638D50B,
+				C4FFA7CBDF261727181423CC,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D9C4F8D88BBC04C90DAEE4CB = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49527F9F3E0B65D226EF185,
+				35DA407978BCD4FD5D86996E,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E48FA2201E611B0B33E0E956 = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D9C4F8D88BBC04C90DAEE4CB;
+			buildPhases = ( );
+			buildRules = ( );
+			dependencies = (
+				6E40E759D8B7259389EB3AB0,
+				88EC0318F8F15E382F441C1B,
+				FBDA2F9876F8C08979140757,
+				B15DF5043C79E46730E49484,
+			);
+			name = "ResonantLowPass - All";
+			productName = ResonantLowPass;
+		};
+		8858208B8B26A1533A5864A5 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D58BFA6D3224B1EC42922AF,
+				30F098A68E13D571F3C5E4DF,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		783CA1FA15CE13D69D903E12 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7277A8DE04B67102CB6C15CC,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3707F4C312BE25ED108345A = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D87F754498C3BA244A4FFE7,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56024D173762317121C699F7 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E328C7ED776C33AEFF6810,
+				E2757C6D257DA281A8A46047,
+				235E576F3A74947BF628A588,
+				30EE697DA4D57CE752CC0DAA,
+				5D61A36D4D578540BDF70516,
+				C27C88EE344DA0D06457D8D9,
+				7467F3D3E4EE6ACC6BCAC279,
+				18EBE91AA64DA1873725BA37,
+				570A33475425D524648AB702,
+				87C2B58BF80785EBB3D17B6C,
+				ADF3150C6266011F0A25B4F1,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C32EE0BA4F6ADB228C83F33 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8858208B8B26A1533A5864A5;
+			buildPhases = (
+				783CA1FA15CE13D69D903E12,
+				D3707F4C312BE25ED108345A,
+				56024D173762317121C699F7,
+			);
+			buildRules = ( );
+			dependencies = (
+				BE9585410FE6193DD5D3A9C7,
+			);
+			name = "ResonantLowPass - VST3";
+			productName = ResonantLowPass;
+			productReference = 92CE785D1AC4BFD7A3A933A9;
+			productType = "com.apple.product-type.bundle";
+		};
+		62637836A5EC12822D151E63 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A70607D46F2B799053EB3F,
+				D8F32154D16FDAB32C6DD2CF,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C1AB57B453AF05B823C29724 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7277A8DE04B67102CB6C15CC,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F981B3EA0EB7220510F475 = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78478985920AFFCD72D1D5B4,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F68034625D27EAAFFD135C = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3E048382A9357C07EF24AA,
+				346A8FAD4ABFCB2E2EFD4163,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64916162E4EAA78E35920886 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA78A1E1344684634EE697E,
+				59E328C7ED776C33AEFF6810,
+				E2757C6D257DA281A8A46047,
+				235E576F3A74947BF628A588,
+				30EE697DA4D57CE752CC0DAA,
+				5D61A36D4D578540BDF70516,
+				C27C88EE344DA0D06457D8D9,
+				7467F3D3E4EE6ACC6BCAC279,
+				18EBE91AA64DA1873725BA37,
+				570A33475425D524648AB702,
+				87C2B58BF80785EBB3D17B6C,
+				ADF3150C6266011F0A25B4F1,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07665E1CDAF0755746AC6033 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62637836A5EC12822D151E63;
+			buildPhases = (
+				C1AB57B453AF05B823C29724,
+				64F981B3EA0EB7220510F475,
+				D3F68034625D27EAAFFD135C,
+				64916162E4EAA78E35920886,
+			);
+			buildRules = ( );
+			dependencies = (
+				10868BD3132576E76D89B514,
+			);
+			name = "ResonantLowPass - AU";
+			productName = ResonantLowPass;
+			productReference = F52AC19133C0A958B4C75FA2;
+			productType = "com.apple.product-type.bundle";
+		};
+		3D2B2FBDF4695D2BEF9E2A94 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92C647933824D9FF1349E65,
+				4E4FE79FDE771E06887EF54F,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B6B674DFBA8641EBAAEB264D = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7277A8DE04B67102CB6C15CC,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF48B23F18A66F28192CBE5 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC440995C864AF8D3164540,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D750A57A0D4F937EEE57C6C = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E328C7ED776C33AEFF6810,
+				E2757C6D257DA281A8A46047,
+				235E576F3A74947BF628A588,
+				30EE697DA4D57CE752CC0DAA,
+				5D61A36D4D578540BDF70516,
+				C27C88EE344DA0D06457D8D9,
+				7467F3D3E4EE6ACC6BCAC279,
+				18EBE91AA64DA1873725BA37,
+				570A33475425D524648AB702,
+				87C2B58BF80785EBB3D17B6C,
+				ADF3150C6266011F0A25B4F1,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1252B963FE3E7061955ADE9A = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2B2FBDF4695D2BEF9E2A94;
+			buildPhases = (
+				B6B674DFBA8641EBAAEB264D,
+				DDF48B23F18A66F28192CBE5,
+				5D750A57A0D4F937EEE57C6C,
+			);
+			buildRules = ( );
+			dependencies = (
+				90AEAFD5C9A1CBBC5EF3E0B9,
+			);
+			name = "ResonantLowPass - Standalone Plugin";
+			productName = ResonantLowPass;
+			productReference = 722D919FA20AE4B96F8BD121;
+			productType = "com.apple.product-type.application";
+		};
+		CFF6141DECBBFD9BC179745C = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC84F13CA199109A47B23D6,
+				940725627F674DFB0A2145D6,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1AB2AA813D912CEF85063FD1 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB777B9545BCBBF933E817B4,
+				6D3C16246949F425DEBA9169,
+				22535ED5EE03C29E99730DBE,
+				8764FA86F887659EBFFB7B9F,
+				B25FBD64B3F6767A482CB6C5,
+				44A36F77833F539AF41D5A39,
+				2679FB5481740614A13A23F3,
+				B33CDD330E9F5A5DD53E5FFF,
+				4C27134E1AF5A2F45AAEE7DA,
+				4A43856EA724812350BC80BA,
+				3BF0F1C259275D137BB991F1,
+				B5CA1F2B2149C1206D575AF2,
+				C69CC5D837CF9218715667DC,
+				3C2C0F03ECD62D3557733D49,
+				10B8DDD1D60DC1A85E630712,
+				3FC2885E839319FA6933459F,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56A705BE5EDE8E63F7F23B0 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF6141DECBBFD9BC179745C;
+			buildPhases = (
+				1AB2AA813D912CEF85063FD1,
+			);
+			buildRules = ( );
+			dependencies = ( );
+			name = "ResonantLowPass - Shared Code";
+			productName = ResonantLowPass;
+			productReference = 8E957797AE6F0883D3C9C2F2;
+			productType = "com.apple.product-type.library.static";
+		};
+		ECCA2100D36513863DC4CFFA = {
+			isa = PBXProject;
+			buildConfigurationList = 21CE6AA847925CC7C73FA65F;
+			attributes = { LastUpgradeCheck = 1100; ORGANIZATIONNAME = "Gina Collecchia"; TargetAttributes = { E48FA2201E611B0B33E0E956 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };5C32EE0BA4F6ADB228C83F33 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };07665E1CDAF0755746AC6033 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };1252B963FE3E7061955ADE9A = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };F56A705BE5EDE8E63F7F23B0 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = CAA2DAA47170D9DBD0B39097;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (E48FA2201E611B0B33E0E956, 5C32EE0BA4F6ADB228C83F33, 07665E1CDAF0755746AC6033, 1252B963FE3E7061955ADE9A, F56A705BE5EDE8E63F7F23B0);
+			knownRegions = (en, Base);
+		};
+	};
+	rootObject = ECCA2100D36513863DC4CFFA;
+}
