@@ -2,7 +2,7 @@
 
 <JUCERPROJECT id="fTqHfl" name="Gain" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
-              companyName="Gina Collecchia">
+              companyName="Gina Collecchia" pluginFormats="buildAU,buildRTAS,buildStandalone,buildVST,buildVST3">
   <MAINGROUP id="ipgMRd" name="Gain">
     <GROUP id="{2572E5B0-2F93-8CE1-5B42-FE4109F22778}" name="Source">
       <FILE id="EHorqy" name="PluginProcessor.cpp" compile="1" resource="0"

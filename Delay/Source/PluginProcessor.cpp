@@ -34,7 +34,17 @@ DelayAudioProcessor::~DelayAudioProcessor()
 
     mCircularBufferWriteHead = 0;
     mCircularBufferLength = 0;
-}
+    
+    addParameter(mDryWetParameter = new juce::AudioParameterFloat("drywet", "Dry Wet", 0.f, 1.f, 0.5f));
+    
+    addParameter(mFeedbackParameter = new juce::AudioParameterFloat("feedback", "Feedback", 0.f, 0.98f, 0.5f));
+    
+    addParameter(mDelayTimeParameter = new juce::AudioParameterFloat("delayTime", "Delay Time", 0.f, MAX_DELAY_TIME, 0.5f));
+    
+    mDelayReadHead = 0.f;
+    mDelayTimeInSamples = 0.f;
+    mFeedback = 0.f;
+ }
 
 //==============================================================================
 const juce::String DelayAudioProcessor::getName() const
@@ -111,7 +121,7 @@ void DelayAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
     }
     
     mCircularBufferWriteHead = 0;
-
+    mDelayTimeInSamples = sampleRate * *mDelayTimeParameter;
 }
 
 void DelayAudioProcessor::releaseResources()
@@ -168,11 +178,27 @@ void DelayAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::
     for (int channel = 0; channel < totalNumInputChannels; ++channel)
     {
         auto* channelData = buffer.getWritePointer (channel);
+        
+        mDelayTimeInSamples = getSampleRate() * *mDelayTimeParameter;
 
         // Feed delay buffer into channelData
         for (int i = 0; i < buffer.getNumSamples(); i++) {
-            mCircularBuffer[mCircularBufferWriteHead] = channelData[i];
             
+            mCircularBuffer[mCircularBufferWriteHead] = channelData[i] + mFeedback;
+            
+            mDelayReadHead = mCircularBufferWriteHead - *mDelayTimeParameter;
+            if (mDelayReadHead < 0) {
+                mDelayReadHead += mCircularBufferLength;
+            }
+            
+            float delay_sample = mCircularBuffer[(int)mDelayReadHead];
+            mFeedback = delay_sample * *mFeedbackParameter;
+            
+            // add in the delayed signal
+            // buffer.addSample(channel, i, delay_sample);
+            buffer.setSample(channel, i, buffer.getSample(channel, i) * (1.f - *mDryWetParameter) + delay_sample * *mDryWetParameter);
+            
+            mCircularBufferWriteHead++;
             if (mCircularBufferWriteHead >= mCircularBufferLength) {
                 mCircularBufferWriteHead = 0;
             }

@@ -154,14 +154,14 @@ void GainAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::M
     
     // Change the gain of the audio with a slider. Smooth the gain over time.
 
-    float* channelLeft = buffer.getWritePointer(0);
-    float* channelRight = buffer.getWritePointer(1);
-        
-    for (int i = 0; i < buffer.getNumSamples(); i++) {
-        mGainSmoothed -= 0.004*(mGainSmoothed-*mGainParameter);
-        channelLeft[i] *= mGainSmoothed;
-        channelRight[i] *= mGainSmoothed;
+    for (int channel = 0; channel < totalNumInputChannels; ++channel) {
+        float* channelData = buffer.getWritePointer(channel);
+        for (int i = 0; i < buffer.getNumSamples(); i++) {
+            mGainSmoothed -= 0.004*(mGainSmoothed-*mGainParameter);
+            channelData[i] *= mGainSmoothed;
+        }
     }
+    
 }
 
 //==============================================================================

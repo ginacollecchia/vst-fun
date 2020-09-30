@@ -2,7 +2,8 @@
 
 <JUCERPROJECT id="UpmW8l" name="ResonantLowPass" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
-              pluginManufacturer="Gina Collecchia" companyName="Gina Collecchia">
+              pluginManufacturer="Gina Collecchia" companyName="Gina Collecchia"
+              pluginFormats="buildAU,buildStandalone,buildVST,buildVST3">
   <MAINGROUP id="dJVS2g" name="ResonantLowPass">
     <GROUP id="{FE4CA8A5-6BF8-A69E-72F4-4B8E96799781}" name="Source">
       <FILE id="MMAXGG" name="Biquad.h" compile="0" resource="0" file="Source/Biquad.h"/>

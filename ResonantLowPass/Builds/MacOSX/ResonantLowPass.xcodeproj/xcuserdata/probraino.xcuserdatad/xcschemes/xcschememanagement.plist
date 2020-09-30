@@ -7,37 +7,37 @@
 		<key>ResonantLowPass - AU.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>ResonantLowPass - All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<key>ResonantLowPass - Shared Code.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>5</integer>
 		</dict>
 		<key>ResonantLowPass - Standalone Plugin.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
-		<key>ResonantLowPass - VST3.xcscheme_^#shared#^_</key>
+		<key>ResonantLowPass - VST.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ResonantLowPass - VST3.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>07665E1CDAF0755746AC6033</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5C32EE0BA4F6ADB228C83F33</key>
+		<key>2E208FA833329FA3DA30A5B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

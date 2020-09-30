@@ -57,9 +57,19 @@ public:
 
 private:
     //==============================================================================
-    float *mCircularBuffer;
+    juce::AudioParameterFloat* mDelayTimeParameter;
+    juce::AudioParameterFloat* mFeedbackParameter;
+    juce::AudioParameterFloat* mDryWetParameter;
+
+    float mFeedback;
+    
+    float mDelayTimeInSamples;
+    float mDelayReadHead;
+    
     int mCircularBufferWriteHead;
     int mCircularBufferLength;
-    
+
+    float *mCircularBuffer;
+
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (DelayAudioProcessor)
 };

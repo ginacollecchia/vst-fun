@@ -23,12 +23,11 @@ ResonantLowPassAudioProcessor::ResonantLowPassAudioProcessor()
 #endif
 {
     addParameter(mGainParameter = new juce::AudioParameterFloat("gain", "Gain", 0.f, 1.f, 1.f));
-    addParameter(mQParameter = new juce::AudioParameterFloat("q", "Q", 0.25f, 32.f, 5.f));
     addParameter(mFcParameter = new juce::AudioParameterFloat("fc", "Fc", 50.f, 5000.f, 1000.f));
+    addParameter(mQParameter = new juce::AudioParameterFloat("q", "Q", 0.25f, 32.f, 5.f));
     
     fs = getSampleRate();
     
-    // TODO: this filter should change every time that Fc or Q are changed
     designResonantLowPass(lpCoefs, *mFcParameter, *mQParameter);
     lpFilter.setCoefs(lpCoefs);
     
@@ -159,14 +158,20 @@ void ResonantLowPassAudioProcessor::processBlock (juce::AudioBuffer<float>& buff
     // the samples and the outer loop is handling the channels.
     // Alternatively, you can process the samples with the channels
     // interleaved by keeping the same state.
-    auto* channelLeft = buffer.getWritePointer(0);
-    auto* channelRight = buffer.getWritePointer(1);
-    for (int i = 0; i < buffer.getNumSamples(); i++) {
-        lpFilter.process(channelLeft[i], channelLeft[i]);
-        lpFilter.process(channelRight[i], channelRight[i]);
-        mGainSmoothed -= 0.004*(mGainSmoothed-*mGainParameter);
-        channelLeft[i] *= mGainSmoothed;
-        channelRight[i] *= mGainSmoothed;
+    
+    // For each block of audio, update input filter with parameters from the UI
+    designResonantLowPass(lpCoefs, *mFcParameter, *mQParameter);
+    lpFilter.setCoefs(lpCoefs);
+    
+    for (int channel = 0; channel < totalNumInputChannels; ++channel)
+    {
+        auto* channelData = buffer.getWritePointer (channel);
+        
+        for (int i = 0; i < buffer.getNumSamples(); i++) {
+            lpFilter.process(channelData[i], channelData[i]);
+            // mGainSmoothed -= 0.004 * (mGainSmoothed - *mGainParameter);
+            buffer.setSample(channel, i, channelData[i] * *mGainParameter);
+        }
     }
 
 }

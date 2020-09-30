@@ -31,15 +31,12 @@ private:
     
     juce::Slider mGainKnob;
     juce::Label mGainLabel;
-    juce::AudioParameterFloat* gainParameter;
     
     juce::Slider mFcKnob;
     juce::Label mFcLabel;
-    juce::AudioParameterFloat* fcParameter;
     
     juce::Slider mQKnob;
     juce::Label mQLabel;
-    juce::AudioParameterFloat* qParameter;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (ResonantLowPassAudioProcessorEditor)
 };
