@@ -94,8 +94,7 @@ private:
     juce::AudioParameterFloat* mQParameter;
     juce::AudioParameterFloat* mGainParameter;
         
-    float fs;
-    float lpCoefs[5]; // filter coefficients
+    float lpCoefs[5] = {1.f, 0.f, 0.f, 0.f, 0.f}; // filter coefficients
     Biquad lpFilter;
     float mGainSmoothed;
     

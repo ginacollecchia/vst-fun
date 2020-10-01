@@ -26,10 +26,8 @@ ResonantLowPassAudioProcessor::ResonantLowPassAudioProcessor()
     addParameter(mFcParameter = new juce::AudioParameterFloat("fc", "Fc", 50.f, 5000.f, 1000.f));
     addParameter(mQParameter = new juce::AudioParameterFloat("q", "Q", 0.25f, 32.f, 5.f));
     
-    fs = getSampleRate();
-    
-    designResonantLowPass(lpCoefs, *mFcParameter, *mQParameter);
-    lpFilter.setCoefs(lpCoefs);
+    // designResonantLowPass(lpCoefs, *mFcParameter, *mQParameter);
+    // lpFilter.setCoefs(lpCoefs);
     
     mGainSmoothed = mGainParameter->get();
 }
@@ -168,9 +166,11 @@ void ResonantLowPassAudioProcessor::processBlock (juce::AudioBuffer<float>& buff
         auto* channelData = buffer.getWritePointer (channel);
         
         for (int i = 0; i < buffer.getNumSamples(); i++) {
-            lpFilter.process(channelData[i], channelData[i]);
-            // mGainSmoothed -= 0.004 * (mGainSmoothed - *mGainParameter);
-            buffer.setSample(channel, i, channelData[i] * *mGainParameter);
+            float output = 0.f;
+            lpFilter.process(buffer.getSample(channel, i), output);
+            // DBG(output);
+            mGainSmoothed -= 0.004 * (mGainSmoothed - *mGainParameter);
+            buffer.setSample(channel, i, output * mGainSmoothed);
         }
     }
 
@@ -211,25 +211,19 @@ juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
 //------------------------------------------------------------------------------
 void ResonantLowPassAudioProcessor::bilinearTransform(float acoefs[], float dcoefs[])
 {
-    float b0, b1, b2, a0, a1, a2;        //storage for continuous-time filter coefs
-    float bz0, bz1, bz2, az0, az1, az2;    // coefs for discrete-time filter.
+    float b0, b1, b2, a0, a1, a2;        // storage for continuous-time filter coeffs
+    float bz0, bz1, bz2, az0, az1, az2;  // coeffs for discrete-time filter
     
     // For easier looking code...unpack
     b0 = acoefs[0]; b1 = acoefs[1]; b2 = acoefs[2];
     a0 = acoefs[3]; a1 = acoefs[4]; a2 = acoefs[5];
     
-    
-    // TODO: apply bilinear transform
-    ///////////////START//////////////////
-    bz0 = 1.0; bz1 = 0.0; bz2 = 0.0;
-    az0 = 1.0; az1 = 0.0; az2 = 0.0;
-    ////////////////END/////////////////////
-    
-    float T = 1/fs;
+    // apply bilinear transform
+    // pre-warping
+    float T = 1/getSampleRate();
     float Tsq = T*T;
     
     // we need to normalize because the biquad struct assumes az0 = 1
-    
     az0 = ( a0*Tsq + 2*a1*T + 4*a2 );
     az1 = ( 2*a0*Tsq - 8*a2 ) / az0;
     az2 = ( a0*Tsq - 2*a1*T + 4*a2 ) / az0;
@@ -240,19 +234,16 @@ void ResonantLowPassAudioProcessor::bilinearTransform(float acoefs[], float dcoe
     
     az0 = 1;
     
-    ////////////////END/////////////////////
-    
     // return coefficients to the output
     dcoefs[0] = bz0; dcoefs[1] = bz1; dcoefs[2] = bz2;
     dcoefs[3] = az1; dcoefs[4] = az2;
-    
 }
 
 //------------------------------------------------------------------------------
 void ResonantLowPassAudioProcessor::designResonantLowPass(float* dcoefs, float center, float qval)
 // design parametric filter based on input center frequency, gain, Q and sampling rate
 {
-    float b0, b1, b2, a0, a1, a2;        //storage for continuous-time filter coefs
+    float b0, b1, b2, a0, a1, a2;        // storage for continuous-time filter coeffs
     float acoefs[6];
     
     // Filter of the form
@@ -265,24 +256,13 @@ void ResonantLowPassAudioProcessor::designResonantLowPass(float* dcoefs, float c
     //
     // Parameters are center frequency in Hz, gain in dB, and Q.
     
-    
-    b0 = 1.0; b1 = 0.0; b2 = 0.0;
-    a0 = 1.0; a1 = 0.0; a2 = 0.0;
-    
     center *= 2*pi;
     
     // pre-warping
-    center = 2*fs*tan(center/(2*fs));
+    center = 2 * getSampleRate() * tan(center / (2 * getSampleRate()));
     
-    
-    b0 = 1.0;
-    b1 = 0.0;
-    b2 = 0.0;
-    
-    
-    a0 = 1.0;
-    a1 = 1.0 / ( center * qval );
-    a2 = 1.0 / ( center * center );
+    b0 = 1.0; b1 = 0.0; b2 = 0.0;
+    a0 = 1.0; a1 = 1.0 / (center * qval); a2 = 1.0 / powf(center, 2);
     
     // pack the analog coeffs into an array and apply the bilinear tranform
     acoefs[0] = b0; acoefs[1] = b1; acoefs[2] = b2;

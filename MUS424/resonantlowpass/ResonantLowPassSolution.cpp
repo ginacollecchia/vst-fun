@@ -291,18 +291,12 @@ void ResonantLowPass::bilinearTransform(float acoefs[], float dcoefs[])
 	b0 = acoefs[0]; b1 = acoefs[1]; b2 = acoefs[2]; 
     a0 = acoefs[3]; a1 = acoefs[4]; a2 = acoefs[5];
 	
-	
-	// TODO: apply bilinear transform
-	///////////////START//////////////////
-	bz0 = 1.0; bz1 = 0.0; bz2 = 0.0; 
-    az0 = 1.0; az1 = 0.0; az2 = 0.0;
-	////////////////END/////////////////////
-	
+    // apply bilinear transform
+    // pre-warping
     float T = 1/fs;
     float Tsq = T*T;
     
     // we need to normalize because the biquad struct assumes az0 = 1
-    
     az0 = ( a0*Tsq + 2*a1*T + 4*a2 );
     az1 = ( 2*a0*Tsq - 8*a2 ) / az0; 
     az2 = ( a0*Tsq - 2*a1*T + 4*a2 ) / az0;
@@ -312,8 +306,6 @@ void ResonantLowPass::bilinearTransform(float acoefs[], float dcoefs[])
     bz2 = ( b0*Tsq - 2*b1*T + 4*b2 ) / az0; 
     
     az0 = 1;
-	
-	////////////////END/////////////////////
     
 	// return coefficients to the output
 	dcoefs[0] = bz0; dcoefs[1] = bz1; dcoefs[2] = bz2; 
@@ -338,18 +330,10 @@ void ResonantLowPass::designResonantLowPass(float* dcoefs, float center, float q
 	//
 	// Parameters are center frequency in Hz, gain in dB, and Q.
 	
-	
-	//TODO: design analog filter based on input gain, center frequency and Q	
- 	///////////////START//////////////////
-	b0 = 1.0; b1 = 0.0; b2 = 0.0; 
-    a0 = 1.0; a1 = 0.0; a2 = 0.0;	
-	////////////////END/////////////////////	
-    
     center *= 2*pi;
     
     // pre-warping
     center = 2*fs*tan(center/(2*fs));
-    
     
 	b0 = 1.0; 
     b1 = 0.0; 
