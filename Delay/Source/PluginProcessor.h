@@ -55,16 +55,20 @@ public:
     void getStateInformation (juce::MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
 
+    float lin_interp(float inSampleX, float inSampleY, float inFloatPhase);
+
 private:
     //==============================================================================
-    juce::AudioParameterFloat* mDelayTimeParameter;
-    juce::AudioParameterFloat* mFeedbackParameter;
+    
     juce::AudioParameterFloat* mDryWetParameter;
+    juce::AudioParameterFloat* mFeedbackParameter;
+    juce::AudioParameterFloat* mDelayTimeParameter;
 
     float mFeedback;
     
     float mDelayTimeInSamples;
     float mDelayReadHead;
+    float mDelayTimeSmoothed;
     
     int mCircularBufferWriteHead;
     int mCircularBufferLength;
