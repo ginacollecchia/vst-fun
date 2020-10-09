@@ -738,7 +738,7 @@
 					"JucePlugin_Build_Unity=0",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_PROJUCER_VERSION=0x60003",
 					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
@@ -812,10 +812,18 @@
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+				);
 				OTHER_LDFLAGS = "-bundle -lDelay";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Delay;
 				PRODUCT_NAME = "Delay";
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 				WRAPPER_EXTENSION = vst3;
 			};
 			name = Debug;
@@ -850,7 +858,7 @@
 					"JucePlugin_Build_Unity=0",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_PROJUCER_VERSION=0x60003",
 					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
@@ -925,10 +933,18 @@
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+				);
 				OTHER_LDFLAGS = "-bundle -lDelay";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Delay;
 				PRODUCT_NAME = "Delay";
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 				WRAPPER_EXTENSION = vst3;
 			};
 			name = Release;
@@ -963,7 +979,7 @@
 					"JucePlugin_Build_Unity=0",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_PROJUCER_VERSION=0x60003",
 					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
@@ -1037,11 +1053,19 @@
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+				);
 				OTHER_LDFLAGS = "-bundle -lDelay";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Delay;
 				PRODUCT_NAME = "Delay";
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 				WRAPPER_EXTENSION = component;
 			};
 			name = Debug;
@@ -1076,7 +1100,7 @@
 					"JucePlugin_Build_Unity=0",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_PROJUCER_VERSION=0x60003",
 					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
@@ -1151,11 +1175,19 @@
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+				);
 				OTHER_LDFLAGS = "-bundle -lDelay";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Delay;
 				PRODUCT_NAME = "Delay";
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 				WRAPPER_EXTENSION = component;
 			};
 			name = Release;
@@ -1188,7 +1220,7 @@
 					"JucePlugin_Build_Unity=0",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_PROJUCER_VERSION=0x60003",
 					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
@@ -1259,10 +1291,18 @@
 				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
 				INFOPLIST_PREPROCESS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+				);
 				OTHER_LDFLAGS = "-lDelay";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Delay;
 				PRODUCT_NAME = "Delay";
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -1294,7 +1334,7 @@
 					"JucePlugin_Build_Unity=0",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_PROJUCER_VERSION=0x60003",
 					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
@@ -1366,10 +1406,18 @@
 				INFOPLIST_PREPROCESS = NO;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+				);
 				OTHER_LDFLAGS = "-lDelay";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Delay;
 				PRODUCT_NAME = "Delay";
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 			};
 			name = Release;
 		};
@@ -1402,7 +1450,7 @@
 					"JUCE_SHARED_CODE=1",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_PROJUCER_VERSION=0x60003",
 					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
@@ -1472,10 +1520,18 @@
 				);
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Delay;
 				PRODUCT_NAME = "Delay";
 				SKIP_INSTALL = YES;
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -1508,7 +1564,7 @@
 					"JUCE_SHARED_CODE=1",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_PROJUCER_VERSION=0x60003",
 					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
@@ -1579,10 +1635,18 @@
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"$(HOME)/Coding/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"/Users/probraino/Coding/VST_SDK/VST3_SDK",
+					"../../JuceLibraryCode",
+					"$(HOME)/Coding/JUCE/modules",
+					"$(HOME)/Coding/JUCE/modules/juce_audio_plugin_client",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.GinaCollecchia.Delay;
 				PRODUCT_NAME = "Delay";
 				SKIP_INSTALL = YES;
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 			};
 			name = Release;
 		};
@@ -1953,7 +2017,7 @@
 		8CC63DDFC714C9D3E1C475D7 = {
 			isa = PBXProject;
 			buildConfigurationList = 55785A919F947CDB7BF7CD9F;
-			attributes = { LastUpgradeCheck = 1100; ORGANIZATIONNAME = "Gina Collecchia"; TargetAttributes = { B2B53DD238F86AE9389F0046 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };4185AE7765891A99A204294D = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };2C8F89B8E52844E0F8E7B90D = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };8F7534A9E04672A0EE93CE3D = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };2202C1CC927D0C8D4B8B18F8 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
+			attributes = { LastUpgradeCheck = 1200; ORGANIZATIONNAME = "Gina Collecchia"; TargetAttributes = { B2B53DD238F86AE9389F0046 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };4185AE7765891A99A204294D = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };2C8F89B8E52844E0F8E7B90D = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };8F7534A9E04672A0EE93CE3D = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };2202C1CC927D0C8D4B8B18F8 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
 			mainGroup = A0AF1F55D7080B88BDF95758;
