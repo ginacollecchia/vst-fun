@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="REXr4o" name="Flanger" projectType="audioplug" useAppConfig="0"
+<JUCERPROJECT id="REXr4o" name="ChorusFlanger" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
               companyName="Gina Collecchia">
-  <MAINGROUP id="ZSPLMt" name="Flanger">
+  <MAINGROUP id="ZSPLMt" name="ChorusFlanger">
     <GROUP id="{6843EB37-A386-E0BC-6B53-D1786EEBEBF4}" name="Source">
       <FILE id="yUnY6W" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
