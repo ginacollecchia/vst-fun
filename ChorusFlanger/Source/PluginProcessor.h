@@ -15,12 +15,12 @@
 //==============================================================================
 /**
 */
-class FlangerAudioProcessor  : public juce::AudioProcessor
+class ChorusFlangerAudioProcessor  : public juce::AudioProcessor
 {
 public:
     //==============================================================================
-    FlangerAudioProcessor();
-    ~FlangerAudioProcessor() override;
+    ChorusFlangerAudioProcessor();
+    ~ChorusFlangerAudioProcessor() override;
 
     //==============================================================================
     void prepareToPlay (double sampleRate, int samplesPerBlock) override;
@@ -60,20 +60,23 @@ public:
 private:
     //==============================================================================
     
+    float mLFOPhase;
+    
     juce::AudioParameterFloat* mDryWetParameter;
     juce::AudioParameterFloat* mFeedbackParameter;
-    juce::AudioParameterFloat* mDelayTimeParameter;
-    
-    float mFeedback;
-    
-    float mDelayTimeInSamples;
-    float mDelayReadHead;
-    float mDelayTimeSmoothed;
-    
+    juce::AudioParameterFloat* mDepthParameter;
+    juce::AudioParameterFloat* mPhaseOffsetParameter;
+    juce::AudioParameterFloat* mRateParameter;
+    juce::AudioParameterInt* mType;
+
+    float mFeedbackLeft;
+    float mFeedbackRight;
+        
     int mCircularBufferWriteHead;
     int mCircularBufferLength;
     
-    float *mCircularBuffer;
+    float *mCircularBufferLeft;
+    float *mCircularBufferRight;
 
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (FlangerAudioProcessor)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (ChorusFlangerAudioProcessor)
 };

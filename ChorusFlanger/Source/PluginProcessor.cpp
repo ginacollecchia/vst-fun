@@ -10,7 +10,7 @@
 #include "PluginEditor.h"
 
 //==============================================================================
-FlangerAudioProcessor::FlangerAudioProcessor()
+ChorusFlangerAudioProcessor::ChorusFlangerAudioProcessor()
 #ifndef JucePlugin_PreferredChannelConfigurations
      : AudioProcessor (BusesProperties()
                      #if ! JucePlugin_IsMidiEffect
@@ -22,37 +22,45 @@ FlangerAudioProcessor::FlangerAudioProcessor()
                        )
 #endif
 {
-    mCircularBuffer = nullptr;
+    mCircularBufferLeft = nullptr;
+    mCircularBufferRight = nullptr;
     mCircularBufferWriteHead = 0;
     mCircularBufferLength = 0;
     
     addParameter(mDryWetParameter = new juce::AudioParameterFloat("drywet", "Dry Wet", 0, 1, 0.5));
     addParameter(mFeedbackParameter = new juce::AudioParameterFloat("feedback", "Feedback", 0, 0.98, 0.5));
-    addParameter(mDelayTimeParameter = new juce::AudioParameterFloat("delayTime", "Delay Time", 0, MAX_DELAY_TIME, 0.5));
-    
-    mDelayReadHead = 0.f;
-    mDelayTimeInSamples = 0.f;
-    mDelayTimeSmoothed = 0.f;
-    mFeedback = 0.f;
+    addParameter(mDepthParameter = new juce::AudioParameterFloat("depth", "Depth", 0, 1.0, 0.5f));
+    addParameter(mPhaseOffsetParameter = new juce::AudioParameterFloat("phaseOffset", "Phase Offset", 0, 1.f, 0.f));
+    addParameter(mRateParameter = new juce::AudioParameterFloat("rate", "Rate", 0, 20.f, 10.f));
+    addParameter(mType = new juce::AudioParameterInt("type", "Type", 0, 1, 0));
+
+    mFeedbackLeft = 0.f;
+    mFeedbackRight = 0.f;
+    mLFOPhase = 0.f;
 
 }
 
-FlangerAudioProcessor::~FlangerAudioProcessor()
+ChorusFlangerAudioProcessor::~ChorusFlangerAudioProcessor()
 {
-    if (mCircularBuffer != nullptr) {
-        delete [] mCircularBuffer;
-        mCircularBuffer = nullptr;
+    if (mCircularBufferLeft != nullptr) {
+        delete [] mCircularBufferLeft;
+        mCircularBufferLeft = nullptr;
+    }
+    
+    if (mCircularBufferRight != nullptr) {
+        delete [] mCircularBufferRight;
+        mCircularBufferRight = nullptr;
     }
 
 }
 
 //==============================================================================
-const juce::String FlangerAudioProcessor::getName() const
+const juce::String ChorusFlangerAudioProcessor::getName() const
 {
     return JucePlugin_Name;
 }
 
-bool FlangerAudioProcessor::acceptsMidi() const
+bool ChorusFlangerAudioProcessor::acceptsMidi() const
 {
    #if JucePlugin_WantsMidiInput
     return true;
@@ -61,7 +69,7 @@ bool FlangerAudioProcessor::acceptsMidi() const
    #endif
 }
 
-bool FlangerAudioProcessor::producesMidi() const
+bool ChorusFlangerAudioProcessor::producesMidi() const
 {
    #if JucePlugin_ProducesMidiOutput
     return true;
@@ -70,7 +78,7 @@ bool FlangerAudioProcessor::producesMidi() const
    #endif
 }
 
-bool FlangerAudioProcessor::isMidiEffect() const
+bool ChorusFlangerAudioProcessor::isMidiEffect() const
 {
    #if JucePlugin_IsMidiEffect
     return true;
@@ -79,64 +87,69 @@ bool FlangerAudioProcessor::isMidiEffect() const
    #endif
 }
 
-double FlangerAudioProcessor::getTailLengthSeconds() const
+double ChorusFlangerAudioProcessor::getTailLengthSeconds() const
 {
     return 0.0;
 }
 
-int FlangerAudioProcessor::getNumPrograms()
+int ChorusFlangerAudioProcessor::getNumPrograms()
 {
     return 1;   // NB: some hosts don't cope very well if you tell them there are 0 programs,
                 // so this should be at least 1, even if you're not really implementing programs.
 }
 
-int FlangerAudioProcessor::getCurrentProgram()
+int ChorusFlangerAudioProcessor::getCurrentProgram()
 {
     return 0;
 }
 
-void FlangerAudioProcessor::setCurrentProgram (int index)
+void ChorusFlangerAudioProcessor::setCurrentProgram (int index)
 {
 }
 
-const juce::String FlangerAudioProcessor::getProgramName (int index)
+const juce::String ChorusFlangerAudioProcessor::getProgramName (int index)
 {
     return {};
 }
 
-void FlangerAudioProcessor::changeProgramName (int index, const juce::String& newName)
+void ChorusFlangerAudioProcessor::changeProgramName (int index, const juce::String& newName)
 {
 }
 
 //==============================================================================
-void FlangerAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
+void ChorusFlangerAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
     
     mCircularBufferLength = sampleRate * MAX_DELAY_TIME;
     
-    if (mCircularBuffer == nullptr) {
-        mCircularBuffer = new float[mCircularBufferLength];
+    if (mCircularBufferLeft == nullptr) {
+        mCircularBufferLeft = new float[mCircularBufferLength];
     }
-    
+ 
+    if (mCircularBufferRight == nullptr) {
+        mCircularBufferRight = new float[mCircularBufferLength];
+    }
+
     // zero out the memory so that everything inside the circular buffer is silent
-    juce::zeromem(mCircularBuffer, mCircularBufferLength * sizeof(float));
-    
+    juce::zeromem(mCircularBufferLeft, mCircularBufferLength * sizeof(float));
+    juce::zeromem(mCircularBufferRight, mCircularBufferLength * sizeof(float));
+
     mCircularBufferWriteHead = 0;
     
-    mDelayTimeSmoothed = mDelayTimeParameter->get();
+    mLFOPhase = 0;
 
 }
 
-void FlangerAudioProcessor::releaseResources()
+void ChorusFlangerAudioProcessor::releaseResources()
 {
     // When playback stops, you can use this as an opportunity to free up any
     // spare memory, etc.
 }
 
 #ifndef JucePlugin_PreferredChannelConfigurations
-bool FlangerAudioProcessor::isBusesLayoutSupported (const BusesLayout& layouts) const
+bool ChorusFlangerAudioProcessor::isBusesLayoutSupported (const BusesLayout& layouts) const
 {
   #if JucePlugin_IsMidiEffect
     juce::ignoreUnused (layouts);
@@ -159,12 +172,12 @@ bool FlangerAudioProcessor::isBusesLayoutSupported (const BusesLayout& layouts) 
 }
 #endif
 
-float FlangerAudioProcessor::lin_interp(float inSampleX, float inSampleY, float inFloatPhase)
+float ChorusFlangerAudioProcessor::lin_interp(float inSampleX, float inSampleY, float inFloatPhase)
 {
     return (1 - inFloatPhase) * inSampleX  + inFloatPhase * inSampleY;
 }
 
-void FlangerAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
+void ChorusFlangerAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
 {
     juce::ScopedNoDenormals noDenormals;
     auto totalNumInputChannels  = getTotalNumInputChannels();
@@ -185,81 +198,126 @@ void FlangerAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce
     // the samples and the outer loop is handling the channels.
     // Alternatively, you can process the samples with the channels
     // interleaved by keeping the same state.
-    for (int channel = 0; channel < totalNumInputChannels; ++channel)
-    {
-        auto* channelData = buffer.getWritePointer (channel);
-        
-        // Feed delay buffer into channelData
-        for (int i = 0; i < buffer.getNumSamples(); i++) {
-            
-            // smooth the time parameter
-            mDelayTimeSmoothed = mDelayTimeSmoothed - 0.0001*(mDelayTimeSmoothed - *mDelayTimeParameter);
-            mDelayTimeInSamples = getSampleRate() * mDelayTimeSmoothed;
-            
-            // read the buffer data and add feedback
-            mCircularBuffer[mCircularBufferWriteHead] = channelData[i] + mFeedback;
-            
-            // set delay readhead
-            mDelayReadHead = mCircularBufferWriteHead - mDelayTimeInSamples;
-            if (mDelayReadHead < 0) {
-                mDelayReadHead += mCircularBufferLength;
-            }
-            
-            // do interpolation: get floating point value of difference between float time and samples
-            int readHead_x1 = (int)mDelayReadHead;
-            int readHead_x2 = readHead_x1 + 1;
-            float readHeadPhase = mDelayReadHead - readHead_x1;
-            if (readHead_x2 >= mCircularBufferLength) {
-                readHead_x2 -= mCircularBufferLength;
-            }
-            
-            // Now we get the interpolated delay sample
-            float delay_sample = lin_interp(mCircularBuffer[readHead_x1], mCircularBuffer[readHead_x2], readHeadPhase);
-            
-            mFeedback = delay_sample * *mFeedbackParameter;
-            
-            // add in the delayed signal
-            // buffer.addSample(channel, i, delay_sample);
-            buffer.setSample(channel, i, buffer.getSample(channel, i) * (1.f - *mDryWetParameter) + delay_sample * *mDryWetParameter);
-            
-            // iterate the write head of the circular buffer
-            mCircularBufferWriteHead++;
-            if (mCircularBufferWriteHead >= mCircularBufferLength) {
-                mCircularBufferWriteHead = 0;
-            }
-        }
+    float* channelDataLeft = buffer.getWritePointer(0);
+    float* channelDataRight = buffer.getWritePointer(0);
 
+    // Feed delay buffer into channelData
+    for (int i = 0; i < buffer.getNumSamples(); i++) {
+        
+        // create 2 LFOs, with the left channel modified by the LFO and the right channel modified by the phase offset
+        float lfoOutLeft = sin(2 * M_PI * mLFOPhase);
+        float lfoPhaseRight = mLFOPhase * *mPhaseOffsetParameter;
+        if (lfoPhaseRight > 1) lfoPhaseRight -= 1;
+        float lfoOutRight = sin(2 * M_PI * lfoPhaseRight);
+
+        // scale LFOs by depth
+        lfoOutLeft *= *mDepthParameter;
+        lfoOutRight *= *mDepthParameter;
+        
+        float lfoOutMappedLeft = 0;
+        float lfoOutMappedRight = 0;
+        
+        if (*mType == 0) {
+            // CHORUS EFFECT
+            // map LFO phase to time
+            lfoOutMappedLeft = juce::jmap(lfoOutLeft, -1.f, 1.f, 0.005f, 0.03f);
+            lfoOutMappedRight = juce::jmap(lfoOutRight, -1.f, 1.f, 0.005f, 0.03f);
+        } else {
+            // FLANGER EFFECT: different delay times create different timbres
+            lfoOutMappedLeft = juce::jmap(lfoOutLeft, -1.f, 1.f, 0.001f, 0.005f);
+            lfoOutMappedRight = juce::jmap(lfoOutRight, -1.f, 1.f, 0.001f, 0.005f);
+        }
+        
+        float delayTimeSamplesLeft = getSampleRate() * lfoOutMappedLeft;
+        float delayTimeSamplesRight = getSampleRate() * lfoOutMappedRight;
+        
+        // smooth the time parameter: matters for sawtooth or undifferentiable LFOs
+        // mDelayTimeSmoothed -= 0.001 * (mDelayTimeSmoothed - lfoOutMapped);
+
+        mLFOPhase += *mRateParameter / getSampleRate();
+        if (mLFOPhase > 1) mLFOPhase -= 1;
+        
+        // read the buffer data and add feedback
+        mCircularBufferLeft[mCircularBufferWriteHead] = channelDataLeft[i] + mFeedbackLeft;
+        mCircularBufferRight[mCircularBufferWriteHead] = channelDataRight[i] + mFeedbackRight;
+        
+        // set delay readheads
+        float delayReadHeadLeft = mCircularBufferWriteHead - delayTimeSamplesLeft;
+        if (delayReadHeadLeft < 0) delayReadHeadLeft += mCircularBufferLength;
+        float delayReadHeadRight = mCircularBufferWriteHead - delayTimeSamplesRight;
+        if (delayReadHeadRight < 0) delayReadHeadRight += mCircularBufferLength;
+
+        // do interpolation: get floating point value of difference between float time and samples
+        int readHeadLeft_x1 = (int)delayReadHeadLeft;
+        int readHeadLeft_x2 = readHeadLeft_x1 + 1;
+        if (readHeadLeft_x2 >= mCircularBufferLength) readHeadLeft_x2 -= mCircularBufferLength;
+        float readHeadPhaseLeft = delayReadHeadLeft - readHeadLeft_x1;
+        
+        int readHeadRight_x1 = (int)delayReadHeadRight;
+        int readHeadRight_x2 = readHeadRight_x1 + 1;
+        if (readHeadRight_x2 >= mCircularBufferLength) readHeadRight_x2 -= mCircularBufferLength;
+        float readHeadPhaseRight = delayReadHeadRight - readHeadRight_x1;
+
+        // Now we get the interpolated delay sample
+        float delay_sample_left = lin_interp(mCircularBufferLeft[readHeadLeft_x1], mCircularBufferLeft[readHeadLeft_x2], readHeadPhaseLeft);
+        float delay_sample_right = lin_interp(mCircularBufferRight[readHeadRight_x1], mCircularBufferRight[readHeadRight_x2], readHeadPhaseRight);
+
+        mFeedbackLeft = delay_sample_left * *mFeedbackParameter;
+        mFeedbackRight = delay_sample_right * *mFeedbackParameter;
+        
+        // add in the delayed signal
+        // buffer.addSample(channel, i, delay_sample);
+        buffer.setSample(0, i, buffer.getSample(0, i) * (1.f - *mDryWetParameter) + delay_sample_left * *mDryWetParameter);
+        buffer.setSample(1, i, buffer.getSample(1, i) * (1.f - *mDryWetParameter) + delay_sample_right * *mDryWetParameter);
+
+        // iterate the write head of the circular buffer
+        mCircularBufferWriteHead++;
+        if (mCircularBufferWriteHead >= mCircularBufferLength) mCircularBufferWriteHead = 0;
     }
 }
 
 //==============================================================================
-bool FlangerAudioProcessor::hasEditor() const
+bool ChorusFlangerAudioProcessor::hasEditor() const
 {
     return true; // (change this to false if you choose to not supply an editor)
 }
 
-juce::AudioProcessorEditor* FlangerAudioProcessor::createEditor()
+juce::AudioProcessorEditor* ChorusFlangerAudioProcessor::createEditor()
 {
-    return new FlangerAudioProcessorEditor (*this);
+    return new ChorusFlangerAudioProcessorEditor (*this);
 }
 
 //==============================================================================
-void FlangerAudioProcessor::getStateInformation (juce::MemoryBlock& destData)
+void ChorusFlangerAudioProcessor::getStateInformation (juce::MemoryBlock& destData)
 {
-    // You should use this method to store your parameters in the memory block.
-    // You could do that either as raw data, or use the XML or ValueTree classes
-    // as intermediaries to make it easy to save and load complex data.
+    std::unique_ptr<juce::XmlElement> xml(new juce::XmlElement("ChorusFlanger"));
+    xml->setAttribute("DryWet", *mDryWetParameter);
+    xml->setAttribute("Depth", *mDepthParameter);
+    xml->setAttribute("Rate", *mRateParameter);
+    xml->setAttribute("PhaseOffset", *mPhaseOffsetParameter);
+    xml->setAttribute("Feedback", *mFeedbackParameter);
+    xml->setAttribute("Type", *mType);
+    
+    copyXmlToBinary(*xml, destData);
 }
 
-void FlangerAudioProcessor::setStateInformation (const void* data, int sizeInBytes)
+void ChorusFlangerAudioProcessor::setStateInformation (const void* data, int sizeInBytes)
 {
-    // You should use this method to restore your parameters from this memory block,
-    // whose contents will have been created by the getStateInformation() call.
+    std::unique_ptr<juce::XmlElement> xml(getXmlFromBinary(data, sizeInBytes));
+    
+    if (xml.get() != nullptr && xml->hasTagName("ChorusFlanger")) {
+        *mDryWetParameter = xml->getDoubleAttribute("DryWet");
+        *mDepthParameter = xml->getDoubleAttribute("Depth");
+        *mRateParameter = xml->getDoubleAttribute("Rate");
+        *mPhaseOffsetParameter = xml->getDoubleAttribute("PhaseOffset");
+        *mFeedbackParameter = xml->getDoubleAttribute("Feedback");
+        *mType = xml->getIntAttribute("Type");
+    }
 }
 
 //==============================================================================
 // This creates new instances of the plugin..
 juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
 {
-    return new FlangerAudioProcessor();
+    return new ChorusFlangerAudioProcessor();
 }
