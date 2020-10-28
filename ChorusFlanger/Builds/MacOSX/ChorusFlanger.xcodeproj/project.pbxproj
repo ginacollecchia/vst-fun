@@ -81,6 +81,10 @@
 			isa = PBXBuildFile;
 			fileRef = 1A14DA648D8C4C80D6BC3E25;
 		};
+		8952FF0482D3D5AC3BEB05F0 = {
+			isa = PBXBuildFile;
+			fileRef = B7FA515190954CB78EE4E049;
+		};
 		92A968564DE7EB77A41B7EE4 = {
 			isa = PBXBuildFile;
 			fileRef = FC26C6ADEE1B7919148C6A7C;
@@ -178,6 +182,13 @@
 			path = "../../JuceLibraryCode/include_juce_audio_devices.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
+		109F5210E682D13E2C3399F9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = BinaryData.h;
+			path = ../../JuceLibraryCode/BinaryData.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		175471B1362A1222277CF11F = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
@@ -262,26 +273,12 @@
 			path = ../../Source/PluginProcessor.h;
 			sourceTree = "SOURCE_ROOT";
 		};
-		2A1DF03C9F1992075BDCF4DC = {
+		5A20FA8DF31A8AF2A10E1CE4 = {
 			isa = PBXFileReference;
-			lastKnownFileType = file;
-			name = "juce_data_structures";
-			path = "~/Coding/JUCE/modules/juce_data_structures";
-			sourceTree = "<absolute>";
-		};
-		31B61730D72460B572829F03 = {
-			isa = PBXFileReference;
-			lastKnownFileType = file;
-			name = "juce_gui_basics";
-			path = "~/Coding/JUCE/modules/juce_gui_basics";
-			sourceTree = "<absolute>";
-		};
-		57852756303638FD04B7150E = {
-			isa = PBXFileReference;
-			lastKnownFileType = file;
-			name = "juce_gui_extra";
-			path = "~/Coding/JUCE/modules/juce_gui_extra";
-			sourceTree = "<absolute>";
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_gui_basics.mm";
+			path = "../../JuceLibraryCode/include_juce_gui_basics.mm";
+			sourceTree = "SOURCE_ROOT";
 		};
 		DDF2327AA1204E22DB1A91D1 = {
 			isa = PBXFileReference;
@@ -304,6 +301,20 @@
 			path = Flanger.app;
 			sourceTree = "BUILT_PRODUCTS_DIR";
 		};
+		2A1DF03C9F1992075BDCF4DC = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_data_structures";
+			path = "~/Coding/JUCE/modules/juce_data_structures";
+			sourceTree = "<absolute>";
+		};
+		31B61730D72460B572829F03 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_basics";
+			path = "~/Coding/JUCE/modules/juce_gui_basics";
+			sourceTree = "<absolute>";
+		};
 		384A14580BCC6A2DFD8CB40E = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
@@ -311,19 +322,19 @@
 			path = System/Library/Frameworks/AudioUnit.framework;
 			sourceTree = SDKROOT;
 		};
+		57852756303638FD04B7150E = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_extra";
+			path = "~/Coding/JUCE/modules/juce_gui_extra";
+			sourceTree = "<absolute>";
+		};
 		59E040A6CEA2162C71705B56 = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
 			name = "juce_audio_processors";
 			path = "~/Coding/JUCE/modules/juce_audio_processors";
 			sourceTree = "<absolute>";
-		};
-		5A20FA8DF31A8AF2A10E1CE4 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.objcpp;
-			name = "include_juce_gui_basics.mm";
-			path = "../../JuceLibraryCode/include_juce_gui_basics.mm";
-			sourceTree = "SOURCE_ROOT";
 		};
 		641ABAE32F360F1B35392F69 = {
 			isa = PBXFileReference;
@@ -373,6 +384,13 @@
 			name = CoreMIDI.framework;
 			path = System/Library/Frameworks/CoreMIDI.framework;
 			sourceTree = SDKROOT;
+		};
+		791F63A67FA94D2E87A18A7F = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.jpeg;
+			name = chorusBackground.jpg;
+			path = ../../img/chorusBackground.jpg;
+			sourceTree = "SOURCE_ROOT";
 		};
 		7F5C0939D5F35AC1DC0FA7DA = {
 			isa = PBXFileReference;
@@ -479,6 +497,13 @@
 			path = libFlanger.a;
 			sourceTree = "BUILT_PRODUCTS_DIR";
 		};
+		B7FA515190954CB78EE4E049 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = BinaryData.cpp;
+			path = ../../JuceLibraryCode/BinaryData.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
 		BDE8817B45DC1357DFE63009 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.objcpp;
@@ -513,6 +538,13 @@
 			name = CoreAudio.framework;
 			path = System/Library/Frameworks/CoreAudio.framework;
 			sourceTree = SDKROOT;
+		};
+		D48CD42E55AABA7D73B0D975 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.jpeg;
+			name = flangerBackground.jpg;
+			path = ../../img/flangerBackground.jpg;
+			sourceTree = "SOURCE_ROOT";
 		};
 		E2F176D676F51A6F900425EB = {
 			isa = PBXFileReference;
@@ -578,6 +610,8 @@
 			isa = PBXGroup;
 			children = (
 				82EC7A6004A24A3F0818DCE7,
+				791F63A67FA94D2E87A18A7F,
+				D48CD42E55AABA7D73B0D975,
 			);
 			name = ChorusFlanger;
 			sourceTree = "<group>";
@@ -605,6 +639,8 @@
 		A7AEBE3107E3092EB7F88C6C = {
 			isa = PBXGroup;
 			children = (
+				B7FA515190954CB78EE4E049,
+				109F5210E682D13E2C3399F9,
 				FC26C6ADEE1B7919148C6A7C,
 				0BECD9B85F9A192B51F80718,
 				CE5C0EE051CC91D3870AFB60,
@@ -2013,6 +2049,7 @@
 			files = (
 				10D99C96AA2A83AC557A1254,
 				767A5B21BAB6BE09AB323DF9,
+				8952FF0482D3D5AC3BEB05F0,
 				92A968564DE7EB77A41B7EE4,
 				57EA314A4636492A6049248E,
 				F003ECB3A247211DF4969109,

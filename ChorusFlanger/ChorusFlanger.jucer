@@ -13,6 +13,10 @@
             file="Source/PluginEditor.cpp"/>
       <FILE id="Y3Wx1m" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
+    <FILE id="bbwYLJ" name="chorusBackground.jpg" compile="0" resource="1"
+          file="img/chorusBackground.jpg"/>
+    <FILE id="b4F45x" name="flangerBackground.jpg" compile="0" resource="1"
+          file="img/flangerBackground.jpg"/>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
   <EXPORTFORMATS>

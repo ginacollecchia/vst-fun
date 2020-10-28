@@ -41,14 +41,14 @@ struct HalfBiquad {
     double	a1, b0, b1, z1;
     
     HalfBiquad()		{	this->a1=0.0; this->b0=1.0; this->b1=0.0; Reset();	}
-    void	SetCoefs (double* coefs)		//pointer to array: [b0 b1 b2 a1 a2]
+    void	SetCoefs (double* coefs)		//pointer to array: [b0 b1 a1 a2]
     {	this->a1=*(coefs+2); this->b0=*(coefs); this->b1=*(coefs+1);}
     void	Reset()	{	z1=0; }
     void	Process (double input, double& output)
     {
         //Transposed Direct II Form (PREFERRED)
         output = z1+input*b0;
-        z1=input*b1-output*a1;
+        z1 = input*b1-output*a1;
         
     }
 };
@@ -70,20 +70,25 @@ struct DelayLine {			// delay line
     void SetDelay(long aDelay)
     {	theDelay=aDelay;}
     void Write(double data)
-    {	dly[wp]=data;}								// write data into line
+    {
+        dly[wp] = data;
+    }								// write data into line
     double Read()
-    {	return dly[rp];}							// read data from line
+    {
+        return dly[rp];
+    }							// read data from line
     void UpdatePointers()							// advance read, write pointers
-    {	wp--;
-        if(wp<0)
-            wp=kMaxDelay-1;
-        rp=wp+theDelay;
-        if(rp>kMaxDelay-1)
-            rp-=kMaxDelay;
-        if(rp>kMaxDelay-1)
-            rp=kMaxDelay-1;
-        if(rp<0)
-            rp=0;
+    {
+        wp--;
+        if (wp < 0)
+            wp = kMaxDelay-1;
+        rp = wp + theDelay;
+        if (rp > kMaxDelay-1)
+            rp -= kMaxDelay;
+        if (rp > kMaxDelay-1)
+            rp = kMaxDelay-1;
+        if (rp < 0)
+            rp = 0;
     }
 };
 
