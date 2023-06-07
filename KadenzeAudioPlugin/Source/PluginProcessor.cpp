@@ -159,9 +159,9 @@ void KadenzeAudioPluginAudioProcessor::processBlock (juce::AudioBuffer<float>& b
 
         mGain[channel]->process(channelData, 0.5f, channelData, buffer.getNumSamples());
         
-        mLFO[channel]->process(0.25f, 0.5f, buffer.getNumSamples());
+        mLFO[channel]->process(0.5f, 1.f, buffer.getNumSamples());
         
-        mDelay[channel]->process(channelData, 0.25f, 0.5f, 0.35f, mLFO[channel]->getBuffer(), channelData, buffer.getNumSamples());
+        mDelay[channel]->process(channelData, 0.25f, 0.5f, 1.f, mLFO[channel]->getBuffer(), channelData, buffer.getNumSamples());
     }
 }
 

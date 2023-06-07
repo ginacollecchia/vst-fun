@@ -43,13 +43,13 @@ void KAPDelay::process(float* inAudio, float inDelayTime, float inFeedback, floa
     // clamp the feedback to always be less than 1
     const float feedbackMapped = juce::jmap(inFeedback, 0.f, 1.f, 0.f, 0.95f);
     
-    mTimeSmoothed -= kParameterSmoothingCoeff_Generic*(mTimeSmoothed - inDelayTime);
+    const double delayTimeModulation = (0.003 * (0.002 * inModulationBuffer[0]));
+
+    mTimeSmoothed -= kParameterSmoothingCoeff_Generic*(mTimeSmoothed - (inDelayTime * delayTimeModulation));
     
     for (int i = 0; i < inNumSamplesToRender; i++) {
         
-        const double delayTimeModulation = (0.003 * (0.002 * inModulationBuffer[i]));
-        
-        const double delayTimeInSamples = (mTimeSmoothed * delayTimeModulation * mSampleRate);
+        const double delayTimeInSamples = (mTimeSmoothed * mSampleRate);
         
         // circular buffer to avoid clicks n pops:
         const double sample = getInterpolatedSample(delayTimeInSamples);
