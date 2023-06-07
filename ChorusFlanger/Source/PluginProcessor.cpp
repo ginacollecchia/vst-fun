@@ -27,12 +27,12 @@ ChorusFlangerAudioProcessor::ChorusFlangerAudioProcessor()
     mCircularBufferWriteHead = 0;
     mCircularBufferLength = 0;
     
-    addParameter(mDryWetParameter = new juce::AudioParameterFloat("drywet", "Dry Wet", 0, 1, 0.5));
-    addParameter(mFeedbackParameter = new juce::AudioParameterFloat("feedback", "Feedback", 0, 0.98, 0.5));
-    addParameter(mDepthParameter = new juce::AudioParameterFloat("depth", "Depth", 0, 1.0, 0.5f));
-    addParameter(mPhaseOffsetParameter = new juce::AudioParameterFloat("phaseOffset", "Phase Offset", 0, 1.f, 0.f));
-    addParameter(mRateParameter = new juce::AudioParameterFloat("rate", "Rate", 0, 20.f, 10.f));
-    addParameter(mType = new juce::AudioParameterInt("type", "Type", 0, 1, 0));
+    addParameter(mDryWetParameter = new juce::AudioParameterFloat(juce::ParameterID("drywet", 1), "Dry Wet", 0, 1, 0.5));
+    addParameter(mFeedbackParameter = new juce::AudioParameterFloat(juce::ParameterID("feedback", 2), "Feedback", 0, 0.98, 0.5));
+    addParameter(mDepthParameter = new juce::AudioParameterFloat(juce::ParameterID("depth", 3), "Depth", 0, 1.0, 0.5f));
+    addParameter(mPhaseOffsetParameter = new juce::AudioParameterFloat(juce::ParameterID("phaseOffset", 4), "Phase Offset", 0, 1.f, 0.f));
+    addParameter(mRateParameter = new juce::AudioParameterFloat(juce::ParameterID("rate", 5), "Rate", 0, 20.f, 10.f));
+    addParameter(mType = new juce::AudioParameterInt(juce::ParameterID("type", 6), "Type", 0, 1, 0));
 
     mFeedbackLeft = 0.f;
     mFeedbackRight = 0.f;

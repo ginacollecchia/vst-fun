@@ -9,3 +9,19 @@
 */
 
 #pragma once
+
+#include "KAPAudioHelpers.h"
+
+#include "JuceHeader.h"
+
+class KAPGain
+{
+public:
+    
+    KAPGain();
+    ~KAPGain();
+    
+    void process(float* inAudio, float inGain, float* outAudio, int inNumSamplesToRender);
+    
+private:
+};

@@ -26,9 +26,9 @@ DelayAudioProcessor::DelayAudioProcessor()
     mCircularBufferWriteHead = 0;
     mCircularBufferLength = 0;
     
-    addParameter(mDryWetParameter = new juce::AudioParameterFloat("drywet", "Dry Wet", 0, 1, 0.5));
-    addParameter(mFeedbackParameter = new juce::AudioParameterFloat("feedback", "Feedback", 0, 0.98, 0.5));
-    addParameter(mDelayTimeParameter = new juce::AudioParameterFloat("delayTime", "Delay Time", 0, MAX_DELAY_TIME, 0.5));
+    addParameter(mDryWetParameter = new juce::AudioParameterFloat(juce::ParameterID("drywet", 1), "Dry Wet", 0, 1, 0.5));
+    addParameter(mFeedbackParameter = new juce::AudioParameterFloat(juce::ParameterID("feedback", 2), "Feedback", 0, 0.98, 0.5));
+    addParameter(mDelayTimeParameter = new juce::AudioParameterFloat(juce::ParameterID("delayTime", 3), "Delay Time", 0, MAX_DELAY_TIME, 0.5));
     
     mDelayReadHead = 0.f;
     mDelayTimeInSamples = 0.f;

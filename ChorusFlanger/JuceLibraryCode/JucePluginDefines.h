@@ -22,9 +22,6 @@
 #ifndef  JucePlugin_Build_AUv3
  #define JucePlugin_Build_AUv3             0
 #endif
-#ifndef  JucePlugin_Build_RTAS
- #define JucePlugin_Build_RTAS             0
-#endif
 #ifndef  JucePlugin_Build_AAX
  #define JucePlugin_Build_AAX              0
 #endif
@@ -34,8 +31,14 @@
 #ifndef  JucePlugin_Build_Unity
  #define JucePlugin_Build_Unity            0
 #endif
+#ifndef  JucePlugin_Build_LV2
+ #define JucePlugin_Build_LV2              0
+#endif
 #ifndef  JucePlugin_Enable_IAA
  #define JucePlugin_Enable_IAA             0
+#endif
+#ifndef  JucePlugin_Enable_ARA
+ #define JucePlugin_Enable_ARA             0
 #endif
 #ifndef  JucePlugin_Name
  #define JucePlugin_Name                   "ChorusFlanger"
@@ -47,7 +50,7 @@
  #define JucePlugin_Manufacturer           "Gina Collecchia"
 #endif
 #ifndef  JucePlugin_ManufacturerWebsite
- #define JucePlugin_ManufacturerWebsite    ""
+ #define JucePlugin_ManufacturerWebsite    "www.GinaCollecchia.com"
 #endif
 #ifndef  JucePlugin_ManufacturerEmail
  #define JucePlugin_ManufacturerEmail      ""
@@ -68,7 +71,7 @@
  #define JucePlugin_ProducesMidiOutput     0
 #endif
 #ifndef  JucePlugin_IsMidiEffect
- #define JucePlugin_IsMidiEffect           0
+ #define JucePlugin_IsMidiEffect           1
 #endif
 #ifndef  JucePlugin_EditorRequiresKeyboardFocus
  #define JucePlugin_EditorRequiresKeyboardFocus  0
@@ -92,7 +95,7 @@
  #define JucePlugin_Vst3Category           "Fx"
 #endif
 #ifndef  JucePlugin_AUMainType
- #define JucePlugin_AUMainType             'aufx'
+ #define JucePlugin_AUMainType             'aumi'
 #endif
 #ifndef  JucePlugin_AUSubType
  #define JucePlugin_AUSubType              JucePlugin_PluginCode
@@ -108,21 +111,6 @@
 #endif
 #ifndef  JucePlugin_CFBundleIdentifier
  #define JucePlugin_CFBundleIdentifier     com.GinaCollecchia.ChorusFlanger
-#endif
-#ifndef  JucePlugin_RTASCategory
- #define JucePlugin_RTASCategory           0
-#endif
-#ifndef  JucePlugin_RTASManufacturerCode
- #define JucePlugin_RTASManufacturerCode   JucePlugin_ManufacturerCode
-#endif
-#ifndef  JucePlugin_RTASProductId
- #define JucePlugin_RTASProductId          JucePlugin_PluginCode
-#endif
-#ifndef  JucePlugin_RTASDisableBypass
- #define JucePlugin_RTASDisableBypass      0
-#endif
-#ifndef  JucePlugin_RTASDisableMultiMono
- #define JucePlugin_RTASDisableMultiMono   0
 #endif
 #ifndef  JucePlugin_AAXIdentifier
  #define JucePlugin_AAXIdentifier          com.GinaCollecchia.ChorusFlanger
@@ -156,4 +144,19 @@
 #endif
 #ifndef  JucePlugin_VSTNumMidiOutputs
  #define JucePlugin_VSTNumMidiOutputs      16
+#endif
+#ifndef  JucePlugin_ARAContentTypes
+ #define JucePlugin_ARAContentTypes        0
+#endif
+#ifndef  JucePlugin_ARATransformationFlags
+ #define JucePlugin_ARATransformationFlags  0
+#endif
+#ifndef  JucePlugin_ARAFactoryID
+ #define JucePlugin_ARAFactoryID           "com.GinaCollecchia.ChorusFlanger.factory"
+#endif
+#ifndef  JucePlugin_ARADocumentArchiveID
+ #define JucePlugin_ARADocumentArchiveID   "com.GinaCollecchia.ChorusFlanger.aradocumentarchive.1.0.0"
+#endif
+#ifndef  JucePlugin_ARACompatibleArchiveIDs
+ #define JucePlugin_ARACompatibleArchiveIDs  ""
 #endif

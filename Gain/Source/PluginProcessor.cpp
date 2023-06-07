@@ -22,7 +22,7 @@ GainAudioProcessor::GainAudioProcessor()
                        )
 #endif
 {
-    addParameter(mGainParameter = new juce::AudioParameterFloat("gain", "Gain", 0.f, 1.f, 0.8f));
+    addParameter(mGainParameter = new juce::AudioParameterFloat(juce::ParameterID("gain", 1), "Gain", 0.f, 1.f, 0.8f));
     
     mGainSmoothed = mGainParameter->get();
 }
